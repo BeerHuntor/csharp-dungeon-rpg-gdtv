@@ -10,9 +10,9 @@ config_version=5
 
 [application]
 
-config/name="Dungeon RPG GMTV C#"
-run/main_scene="res://scenes/characters/player/player.tscn"
-config/features=PackedStringArray("4.2", "Forward Plus")
+config/name="Dungeon RPG GMTV CSharp"
+run/main_scene="res://scenes/levels/main.tscn"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://assets/Icon.png"
 
 [dotnet]

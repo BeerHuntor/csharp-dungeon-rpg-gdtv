@@ -1,5 +1,14 @@
-[gd_scene format=3 uid="uid://blb1xws6877h0"]
+[gd_scene load_steps=3 format=3 uid="uid://blb1xws6877h0"]
+
+[ext_resource type="Script" path="res://scripts/levels/Main.cs" id="1_a7o26"]
+[ext_resource type="PackedScene" uid="uid://dymjhbywl6034" path="res://scenes/characters/player/player.tscn" id="2_ptox7"]
 
 [node name="Main" type="Node3D"]
+script = ExtResource("1_a7o26")
 
 [node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34087, 1.73073, 13.9296)
+
+[node name="Player" parent="." instance=ExtResource("2_ptox7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.343253, 0, -0.38681)
+up_direction = Vector3(0, -1, 0)

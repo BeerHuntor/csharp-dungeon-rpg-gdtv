@@ -196,5 +196,3 @@ root_node = NodePath("../Sprite3D")
 libraries = {
 "": SubResource("AnimationLibrary_d5u5x")
 }
-
-[node name="Sprite3D" type="Sprite3D" parent="AnimationPlayer"]

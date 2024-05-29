@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Dungeon RPG GMTV C#"
+run/main_scene="res://scenes/characters/player/player.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://assets/Icon.png"
 
@@ -22,3 +23,7 @@ project/assembly_name="Dungeon RPG GMTV C#"
 
 version_control/plugin_name="GitPlugin"
 version_control/autoload_on_startup=true
+
+[editor_plugins]
+
+enabled=PackedStringArray()

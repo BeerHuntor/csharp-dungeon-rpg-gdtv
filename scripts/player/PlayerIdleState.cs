@@ -4,14 +4,14 @@ public partial class PlayerIdleState : Node {
 
     private Player playerNode;
 
-    public override void _Ready() { 
-        
+    public override void _Ready() {
+
         playerNode = GetOwner<Player>();
     }
 
     public override void _PhysicsProcess(double delta) {
         if (!playerNode.IsMoving()) {
-            playerNode.GetPlayerAnimationPlayer().Play(GameConstants.ANIMATION_PLAYER_IDLE);
+            playerNode.GetStateMachineNode().SwitchState<PlayerIdleState>();
         }
     }
 

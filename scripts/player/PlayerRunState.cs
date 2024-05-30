@@ -11,7 +11,7 @@ public partial class PlayerRunState : Node {
 
     public override void _PhysicsProcess(double delta) {
         if (playerNode.IsMoving()) {
-            playerNode.GetPlayerAnimationPlayer().Play(GameConstants.ANIMATION_PLAYER_RUN);
+            playerNode.GetStateMachineNode().SwitchState<PlayerRunState>();
         } 
     }
 

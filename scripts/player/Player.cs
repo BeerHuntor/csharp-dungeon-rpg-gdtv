@@ -9,6 +9,7 @@ public partial class Player : CharacterBody3D{
     [ExportGroup("Nodes")] 
     [Export] private Sprite3D spriteNode;
     [Export] private AnimationPlayer animationPlayerNode;
+    [Export] private AnimationStateMachine animationStateMachine;
 
     private Vector3 lastMoveDir; 
 
@@ -94,5 +95,9 @@ public partial class Player : CharacterBody3D{
 
     public AnimationPlayer GetPlayerAnimationPlayer() {
         return animationPlayerNode;
+    }
+
+    public AnimationStateMachine GetStateMachineNode() {
+        return animationStateMachine; 
     }
 }

@@ -13,7 +13,7 @@ public partial class PlayerRunState : Node {
     }
 
     public override void _PhysicsProcess(double delta) {
-        if (playerNode.GetMoveDir() == Vector3.Zero) {
+        if (!playerNode.IsMoving()) {
             playerNode.GetStateMachineNode().SwitchState<PlayerIdleState>();
         } 
     }

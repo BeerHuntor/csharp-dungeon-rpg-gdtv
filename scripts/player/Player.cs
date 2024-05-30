@@ -11,11 +11,11 @@ public partial class Player : CharacterBody3D{
     [Export] private AnimationPlayer animationPlayerNode;
     [Export] private AnimationStateMachine animationStateMachine;
 
-    private Vector3 lastMoveDir; 
+    private Vector3 lastMoveDir;
+    private Vector3 moveDir; 
 
     //Called when a node is ready. (godot's start())
     public override void _Ready() {
-        animationPlayerNode.Play(GameConstants.ANIMATION_PLAYER_RUN);
     }
 
     // Called every frame
@@ -32,7 +32,7 @@ public partial class Player : CharacterBody3D{
     /// Gets the input vector normalized based on keypresses that match the input map. 
     ///</summary>
     private Vector2 GetMovementVectorNormalized() {
-        Vector3 moveDir = Vector3.Zero;
+        moveDir = Vector3.Zero;
 
         if (Input.IsActionPressed(GameConstants.INPUT_MOVE_UP)) {
             moveDir.Y = -1;
@@ -99,5 +99,9 @@ public partial class Player : CharacterBody3D{
 
     public AnimationStateMachine GetStateMachineNode() {
         return animationStateMachine; 
+    }
+
+    public Vector3 GetMoveDir() {
+        return moveDir; 
     }
 }

@@ -24,7 +24,9 @@ public partial class Player : CharacterBody3D{
         FlipSpriteFacingDirection(Velocity);
         HandleMovement();
     }
-
+    ///<summary>
+    /// Gets the input vector normalized based on keypresses that match the input map. 
+    ///</summary>
     private Vector2 GetMovementVectorNormalized() {
         Vector3 moveDir = Vector3.Zero;
 
@@ -51,10 +53,16 @@ public partial class Player : CharacterBody3D{
 
         return new Vector2(moveDir.X, moveDir.Y);
     }
-
+    
+    ///<summary>
+    /// Flips the sprite to face the direction of the input vector
+    ///</summary>
     private void FlipSpriteFacingDirection(Vector3 moveDir) {
         spriteNode.FlipH = moveDir.X < 0;
     }
+    ///<summary>
+    /// Handles all the animation playback calls. 
+    ///</summary>
     private void HandleAnimationPlayback() {
         // Ternary opperator which checks if IsMoving is true, it plays run, else idle. 
         animationPlayerNode.Play(IsMoving() ? GameConstants.ANIMATION_PLAYER_RUN : GameConstants.ANIMATION_PLAYER_IDLE);
@@ -63,7 +71,9 @@ public partial class Player : CharacterBody3D{
     private bool IsMoving() {
         return !Velocity.IsZeroApprox();
     }
-    
+    ///<summary>
+    /// Handles the player movement and is responsible for moving the player. 
+    ///</summary>
     private void HandleMovement() {
         Velocity = new Vector3(GetMovementVectorNormalized().X, 0, GetMovementVectorNormalized().Y);
 

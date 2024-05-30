@@ -12,4 +12,5 @@ public class GameConstants {
     
     //Switch Animation State using Godot's Notification System. 
     public const int SWITCH_ANIMATION_STATE = 5001;
+    public const int DISABLE_PREVIOUS_ANIMATION_STATE = 5002; 
 }

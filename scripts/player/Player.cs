@@ -5,7 +5,8 @@ public partial class Player : CharacterBody3D{
 
     [Export] private float moveSpeed = 3f;
 
-    [ExportGroup("Nodes")] [Export] private Sprite3D spriteNode;
+    [ExportGroup("Nodes")] 
+    [Export] private Sprite3D spriteNode;
     [Export] private AnimationPlayer animationPlayerNode;
 
     //Called when a node is ready. (godot's start())
@@ -19,21 +20,9 @@ public partial class Player : CharacterBody3D{
 
     //Called everytime a physics frame is called. 
     public override void _PhysicsProcess(double delta) {
-        Velocity = new(GetMovementVectorNormalized().X, 0, GetMovementVectorNormalized().Y);
-
-        if (Velocity == Vector3.Zero) {
-            animationPlayerNode.Play(GameConstants.ANIMATION_PLAYER_IDLE);
-        }
-        else {
-            animationPlayerNode.Play(GameConstants.ANIMATION_PLAYER_RUN);
-            Velocity *= moveSpeed;
-            
-            FlipSpriteFacingDirection(Velocity);
-            MoveAndSlide();
-        }
-    }
-
-    public override void _Input(InputEvent @event) {
+        HandleAnimationPlayback();
+        FlipSpriteFacingDirection(Velocity);
+        HandleMovement();
     }
 
     private Vector2 GetMovementVectorNormalized() {
@@ -65,5 +54,20 @@ public partial class Player : CharacterBody3D{
 
     private void FlipSpriteFacingDirection(Vector3 moveDir) {
         spriteNode.FlipH = moveDir.X < 0;
+    }
+    private void HandleAnimationPlayback() {
+        // Ternary opperator which checks if IsMoving is true, it plays run, else idle. 
+        animationPlayerNode.Play(IsMoving() ? GameConstants.ANIMATION_PLAYER_RUN : GameConstants.ANIMATION_PLAYER_IDLE);
+    }
+
+    private bool IsMoving() {
+        return !Velocity.IsZeroApprox();
+    }
+    
+    private void HandleMovement() {
+        Velocity = new Vector3(GetMovementVectorNormalized().X, 0, GetMovementVectorNormalized().Y);
+
+        Velocity *= moveSpeed;
+        MoveAndSlide();
     }
 }

@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Godot;
 
@@ -8,6 +9,8 @@ public partial class Player : CharacterBody3D{
     [ExportGroup("Nodes")] 
     [Export] private Sprite3D spriteNode;
     [Export] private AnimationPlayer animationPlayerNode;
+
+    private Vector3 lastMoveDir; 
 
     //Called when a node is ready. (godot's start())
     public override void _Ready() {
@@ -53,22 +56,26 @@ public partial class Player : CharacterBody3D{
 
         return new Vector2(moveDir.X, moveDir.Y);
     }
-    
+
     ///<summary>
-    /// Flips the sprite to face the direction of the input vector
+    /// Flips the sprite when the input vector is non zero. So the sprite always faces the last known moveDir.X 
     ///</summary>
     private void FlipSpriteFacingDirection(Vector3 moveDir) {
-        spriteNode.FlipH = moveDir.X < 0;
+        if (moveDir != Vector3.Zero) {
+            lastMoveDir = moveDir;
+            spriteNode.FlipH = lastMoveDir.X < 0; 
+        }
     }
+
     ///<summary>
     /// Handles all the animation playback calls. 
     ///</summary>
     private void HandleAnimationPlayback() {
         // Ternary opperator which checks if IsMoving is true, it plays run, else idle. 
-        animationPlayerNode.Play(IsMoving() ? GameConstants.ANIMATION_PLAYER_RUN : GameConstants.ANIMATION_PLAYER_IDLE);
+        // animationPlayerNode.Play(IsMoving() ? GameConstants.ANIMATION_PLAYER_RUN : GameConstants.ANIMATION_PLAYER_IDLE);
     }
 
-    private bool IsMoving() {
+    public bool IsMoving() {
         return !Velocity.IsZeroApprox();
     }
     ///<summary>
@@ -79,5 +86,13 @@ public partial class Player : CharacterBody3D{
 
         Velocity *= moveSpeed;
         MoveAndSlide();
+    }
+
+    public Sprite3D GetPlayerSpriteNode() {
+        return spriteNode;
+    }
+
+    public AnimationPlayer GetPlayerAnimationPlayer() {
+        return animationPlayerNode;
     }
 }

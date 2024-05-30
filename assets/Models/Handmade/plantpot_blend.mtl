@@ -1,0 +1,12 @@
+# Blender 4.1.1 MTL File: 'plantpot.blend'
+# www.blender.org
+
+newmtl m_802ff1d8-62e8-34c5-d6a7-b9291358bcec
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd pot.png

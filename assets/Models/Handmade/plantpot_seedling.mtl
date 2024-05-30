@@ -1,0 +1,10 @@
+# Made in Blockbench 4.10.1
+newmtl m_802ff1d8-62e8-34c5-d6a7-b9291358bcec
+map_Kd pot.png
+newmtl m_d5c4dd80-110a-5528-2f3a-cbb824b79195
+map_Kd dry_soil.png
+newmtl m_f973f9cc-6fb8-26d2-2cdf-13e7e0e22321
+map_Kd Stem.png
+newmtl m_66864f5c-2ef8-5d0e-fc7d-b660e05d2205
+map_Kd Leaf.png
+newmtl none

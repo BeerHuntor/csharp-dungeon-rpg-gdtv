@@ -10,5 +10,6 @@ public class GameConstants {
     public const string INPUT_MOVE_LEFT = "MoveLeft";
     public const string INPUT_MOVE_RIGHT = "MoveRight";
     
-    
+    //Switch Animation State using Godot's Notification System. 
+    public const int SWITCH_ANIMATION_STATE = 5001;
 }

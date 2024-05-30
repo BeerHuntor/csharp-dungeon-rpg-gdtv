@@ -1,4 +1,4 @@
-[gd_scene load_steps=84 format=3 uid="uid://dymjhbywl6034"]
+[gd_scene load_steps=87 format=3 uid="uid://dymjhbywl6034"]
 
 [ext_resource type="Texture2D" uid="uid://bu7jb8cnewn67" path="res://assets/Sprites/Characters/Player/Idle Blinking/Idle Blinking_001.png" id="1_0xoc6"]
 [ext_resource type="Script" path="res://scripts/player/Player.cs" id="1_nhb7f"]
@@ -76,6 +76,9 @@
 [ext_resource type="Texture2D" uid="uid://ds701aescrxyi" path="res://assets/Sprites/Characters/Player/Dying/Dying_012.png" id="73_1cqq5"]
 [ext_resource type="Texture2D" uid="uid://dec6m48beou2x" path="res://assets/Sprites/Characters/Player/Dying/Dying_013.png" id="74_2cq7h"]
 [ext_resource type="Texture2D" uid="uid://ndxwriaj45r0" path="res://assets/Sprites/Characters/Player/Dying/Dying_014.png" id="75_qvflx"]
+[ext_resource type="Script" path="res://scripts/player/AnimationStateMachine.cs" id="77_r1klb"]
+[ext_resource type="Script" path="res://scripts/player/PlayerIdleState.cs" id="78_apen8"]
+[ext_resource type="Script" path="res://scripts/player/PlayerRunState.cs" id="79_jtna0"]
 
 [sub_resource type="Animation" id="Animation_166rg"]
 resource_name = "player_death"
@@ -202,3 +205,14 @@ root_node = NodePath("../Sprite3D")
 libraries = {
 "": SubResource("AnimationLibrary_d5u5x")
 }
+
+[node name="AnimationStateMachine" type="Node" parent="." node_paths=PackedStringArray("currentState", "stateArray")]
+script = ExtResource("77_r1klb")
+currentState = NodePath("IdleState")
+stateArray = [NodePath("IdleState"), NodePath("RunState")]
+
+[node name="IdleState" type="Node" parent="AnimationStateMachine"]
+script = ExtResource("78_apen8")
+
+[node name="RunState" type="Node" parent="AnimationStateMachine"]
+script = ExtResource("79_jtna0")

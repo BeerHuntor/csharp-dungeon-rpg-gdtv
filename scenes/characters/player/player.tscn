@@ -186,12 +186,15 @@ _data = {
 "player_sliding": SubResource("Animation_msgfp")
 }
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("spriteNode", "animationPlayerNode")]
 script = ExtResource("1_nhb7f")
+moveSpeed = 5.0
+spriteNode = NodePath("Sprite3D")
+animationPlayerNode = NodePath("AnimationPlayer")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.66738, 0)
-texture = ExtResource("1_0xoc6")
+texture = ExtResource("8_on1yy")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../Sprite3D")

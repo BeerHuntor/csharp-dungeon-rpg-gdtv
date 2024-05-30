@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd1xdks1n61aa"
-path.s3tc="res://.godot/imported/Dying_003.png-263a488e854c415bbfb9d4b8e8a4e269.s3tc.ctex"
+path="res://.godot/imported/Dying_003.png-263a488e854c415bbfb9d4b8e8a4e269.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/Sprites/Characters/Player/Dying/Dying_003.png"
-dest_files=["res://.godot/imported/Dying_003.png-263a488e854c415bbfb9d4b8e8a4e269.s3tc.ctex"]
+dest_files=["res://.godot/imported/Dying_003.png-263a488e854c415bbfb9d4b8e8a4e269.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

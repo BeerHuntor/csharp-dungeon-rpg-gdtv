@@ -12,4 +12,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34087, 1.73073, 13.9296)
 [node name="Player" parent="." instance=ExtResource("2_ptox7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.343253, 0, -0.38681)
 up_direction = Vector3(0, -1, 0)
-moveSpeed = 5.0

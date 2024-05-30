@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs5ixuau6kntb"
-path.s3tc="res://.godot/imported/Idle Blinking_012.png-49a2dd20d9bb5b0b333b9a27f9e445ba.s3tc.ctex"
+path="res://.godot/imported/Idle Blinking_012.png-49a2dd20d9bb5b0b333b9a27f9e445ba.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://assets/Sprites/Characters/Player/Idle Blinking/Idle Blinking_012.png"
-dest_files=["res://.godot/imported/Idle Blinking_012.png-49a2dd20d9bb5b0b333b9a27f9e445ba.s3tc.ctex"]
+dest_files=["res://.godot/imported/Idle Blinking_012.png-49a2dd20d9bb5b0b333b9a27f9e445ba.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

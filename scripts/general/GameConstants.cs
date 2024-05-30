@@ -1,12 +1,14 @@
 public class GameConstants {
 
-    //Player Animations
+    //Player Animation Constants
     public const string ANIMATION_PLAYER_IDLE = "player_idle";
     public const string ANIMATION_PLAYER_RUN = "player_run";
 
-    //Input
+    //Input Constants
     public const string INPUT_MOVE_UP = "MoveUp";
     public const string INPUT_MOVE_DOWN = "MoveDown";
     public const string INPUT_MOVE_LEFT = "MoveLeft";
     public const string INPUT_MOVE_RIGHT = "MoveRight";
+    
+    
 }

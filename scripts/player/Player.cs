@@ -7,7 +7,7 @@ public partial class Player : CharacterBody3D{
     [Export] private float moveSpeed = 3f;
 
     [ExportGroup("Nodes")] 
-    [Export] private Sprite3D spriteNode;
+    [Export] private Sprite3D playerSpriteNode;
     [Export] private AnimationPlayer animationPlayerNode;
     [Export] private AnimationStateMachine animationStateMachine;
 
@@ -25,7 +25,7 @@ public partial class Player : CharacterBody3D{
     //Called everytime a physics frame is called. 
     public override void _PhysicsProcess(double delta) {
         GetInputVectorNormalized();
-        FlipSpriteFacingDirection(Velocity);
+        FlipSpriteFacingDirection(moveDir);
     }
     ///<summary>
     /// Gets the input vector normalized based on keypresses that match the input map. 
@@ -63,9 +63,10 @@ public partial class Player : CharacterBody3D{
     private void FlipSpriteFacingDirection(Vector3 moveDir) {
         if (moveDir != Vector3.Zero) {
             lastMoveDir = moveDir;
-            spriteNode.FlipH = lastMoveDir.X < 0; 
+            playerSpriteNode.FlipH = lastMoveDir.X < 0;
         }
     }
+
     public bool IsTryingToMove() {
         return !GetInputVectorNormalized().IsZeroApprox();
     }
@@ -93,10 +94,22 @@ public partial class Player : CharacterBody3D{
     public AnimationStateMachine GetStateMachineNode() {
         return animationStateMachine; 
     }
+    /// <summary>
+    /// Returns the Sprite3D node attached to the player
+    /// </summary>
+    public Sprite3D GetPlayerSpriteNode() {
+        return playerSpriteNode;
+    }
     ///<summary>
     /// Returns the movement speed of the player
     ///</summary>
     public float GetMovementSpeed() {
         return moveSpeed;
+    }
+    ///<summary>
+    /// Returns the last movement direction. 
+    ///</summary>
+    public Vector3 GetLastMoveDir() {
+        return lastMoveDir;
     }
 }

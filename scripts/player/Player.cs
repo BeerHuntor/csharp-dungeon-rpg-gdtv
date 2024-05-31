@@ -12,7 +12,7 @@ public partial class Player : CharacterBody3D{
     [Export] private AnimationStateMachine animationStateMachine;
 
     private Vector3 lastMoveDir;
-    private Vector3 moveDir; 
+    private Vector3 moveDir;
 
     //Called when a node is ready. (godot's start())
     public override void _Ready() {
@@ -89,19 +89,11 @@ public partial class Player : CharacterBody3D{
         MoveAndSlide();
     }
 
-    public Sprite3D GetPlayerSpriteNode() {
-        return spriteNode;
-    }
-
     public AnimationPlayer GetPlayerAnimationPlayer() {
         return animationPlayerNode;
     }
 
     public AnimationStateMachine GetStateMachineNode() {
         return animationStateMachine; 
-    }
-
-    public Vector3 GetMoveDir() {
-        return moveDir; 
     }
 }

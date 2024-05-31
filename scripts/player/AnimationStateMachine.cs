@@ -5,16 +5,14 @@ public partial class AnimationStateMachine : Node {
     [Export] private Node currentState;
     [Export] private Node[] stateArray;
 
-    private Node stateToSwitch; 
+    private Node stateToSwitch;
 
     public override void _Ready() {
         currentState.Notification(GameConstants.SWITCH_ANIMATION_STATE);
     }
 
     public override void _Process(double delta) {
-        
     }
-
     public void SwitchState<T>() {
 
         stateToSwitch = null; 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=87 format=3 uid="uid://dymjhbywl6034"]
+[gd_scene load_steps=88 format=3 uid="uid://dymjhbywl6034"]
 
 [ext_resource type="Texture2D" uid="uid://bu7jb8cnewn67" path="res://assets/Sprites/Characters/Player/Idle Blinking/Idle Blinking_001.png" id="1_0xoc6"]
 [ext_resource type="Script" path="res://scripts/player/Player.cs" id="1_nhb7f"]
@@ -79,6 +79,7 @@
 [ext_resource type="Script" path="res://scripts/player/AnimationStateMachine.cs" id="77_r1klb"]
 [ext_resource type="Script" path="res://scripts/player/PlayerIdleState.cs" id="78_apen8"]
 [ext_resource type="Script" path="res://scripts/player/PlayerRunState.cs" id="79_jtna0"]
+[ext_resource type="Script" path="res://scripts/player/PlayerDashState.cs" id="80_fxw1x"]
 
 [sub_resource type="Animation" id="Animation_166rg"]
 resource_name = "player_death"
@@ -199,7 +200,7 @@ animationStateMachine = NodePath("AnimationStateMachine")
 [node name="Sprite3D" type="Sprite3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.66738, 0)
 texture_filter = 0
-texture = ExtResource("3_hffce")
+texture = ExtResource("36_duum5")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../Sprite3D")
@@ -210,10 +211,13 @@ libraries = {
 [node name="AnimationStateMachine" type="Node" parent="." node_paths=PackedStringArray("currentState", "stateArray")]
 script = ExtResource("77_r1klb")
 currentState = NodePath("IdleState")
-stateArray = [NodePath("IdleState"), NodePath("RunState")]
+stateArray = [NodePath("IdleState"), NodePath("RunState"), NodePath("DashState")]
 
 [node name="IdleState" type="Node" parent="AnimationStateMachine"]
 script = ExtResource("78_apen8")
 
 [node name="RunState" type="Node" parent="AnimationStateMachine"]
 script = ExtResource("79_jtna0")
+
+[node name="DashState" type="Node" parent="AnimationStateMachine"]
+script = ExtResource("80_fxw1x")

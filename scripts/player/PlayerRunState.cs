@@ -7,9 +7,8 @@ public partial class PlayerRunState : Node {
     public override void _Ready() { 
         
         playerNode = GetOwner<Player>();
-        playerNode.GetPlayerAnimationPlayer().Play(GameConstants.ANIMATION_PLAYER_IDLE);
-
         SetPhysicsProcess(false);
+        SetProcessInput(false);
     }
 
     public override void _PhysicsProcess(double delta) {
@@ -23,8 +22,16 @@ public partial class PlayerRunState : Node {
         if (what == GameConstants.SWITCH_ANIMATION_STATE) {
             playerNode.GetPlayerAnimationPlayer().Play(GameConstants.ANIMATION_PLAYER_RUN);
             SetPhysicsProcess(true);
+            SetProcessInput(true);
         } else if (what == GameConstants.DISABLE_PREVIOUS_ANIMATION_STATE) {
             SetPhysicsProcess(false);
+            SetProcessInput(false);
+        }
+    }
+
+    public override void _Input(InputEvent @event) {
+        if (Input.IsActionJustPressed(GameConstants.INPUT_DASH)) {
+            playerNode.GetStateMachineNode().SwitchState<PlayerDashState>();
         }
     }
 }

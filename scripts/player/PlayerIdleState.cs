@@ -6,14 +6,15 @@ public partial class PlayerIdleState : Node {
     private Player playerNode;
 
     public override void _Ready() {
-
+        
         playerNode = GetOwner<Player>();
         SetPhysicsProcess(false);
         SetProcessInput(false);
     }
 
     public override void _PhysicsProcess(double delta) {
-        if (playerNode.IsMoving()) {
+        playerNode.IsTryingToMove();
+        if (playerNode.IsTryingToMove()) {
             playerNode.GetStateMachineNode().SwitchState<PlayerRunState>();
         }
     }

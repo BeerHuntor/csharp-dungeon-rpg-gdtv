@@ -3,7 +3,7 @@ using System;
 
 public partial class PlayerRunState : Node {
 
-    private Player playerNode; 
+    private Player playerNode;
     public override void _Ready() { 
         
         playerNode = GetOwner<Player>();
@@ -14,7 +14,18 @@ public partial class PlayerRunState : Node {
     public override void _PhysicsProcess(double delta) {
         if (!playerNode.IsMoving()) {
             playerNode.GetStateMachineNode().SwitchState<PlayerIdleState>();
-        } 
+        }
+        HandleMovement();
+    }
+    
+    ///<summary>
+    /// Handles the player movement and is responsible for moving the player. 
+    ///</summary>
+    private void HandleMovement() {
+        playerNode.Velocity = new Vector3(playerNode.GetInputVectorNormalized().X, 0, playerNode.GetInputVectorNormalized().Y);
+
+        playerNode.Velocity *= playerNode.GetMovementSpeed();
+        playerNode.MoveAndSlide();
     }
 
     public override void _Notification(int what) {

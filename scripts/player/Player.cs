@@ -24,14 +24,13 @@ public partial class Player : CharacterBody3D{
 
     //Called everytime a physics frame is called. 
     public override void _PhysicsProcess(double delta) {
-        HandleAnimationPlayback();
+        GetInputVectorNormalized();
         FlipSpriteFacingDirection(Velocity);
-        HandleMovement();
     }
     ///<summary>
     /// Gets the input vector normalized based on keypresses that match the input map. 
     ///</summary>
-    private Vector2 GetMovementVectorNormalized() {
+    public Vector2 GetInputVectorNormalized() {
         moveDir = Vector3.Zero;
 
         if (Input.IsActionPressed(GameConstants.INPUT_MOVE_UP)) {
@@ -41,7 +40,7 @@ public partial class Player : CharacterBody3D{
         if (Input.IsActionPressed(GameConstants.INPUT_MOVE_DOWN)) {
             moveDir.Y = 1;
         }
-
+        
         if (Input.IsActionPressed(GameConstants.INPUT_MOVE_LEFT)) {
             moveDir.X = -1;
         }
@@ -67,15 +66,9 @@ public partial class Player : CharacterBody3D{
             spriteNode.FlipH = lastMoveDir.X < 0; 
         }
     }
-
-    ///<summary>
-    /// Handles all the animation playback calls. 
-    ///</summary>
-    private void HandleAnimationPlayback() {
-        // Ternary opperator which checks if IsMoving is true, it plays run, else idle. 
-        // animationPlayerNode.Play(IsMoving() ? GameConstants.ANIMATION_PLAYER_RUN : GameConstants.ANIMATION_PLAYER_IDLE);
+    public bool IsTryingToMove() {
+        return !GetInputVectorNormalized().IsZeroApprox();
     }
-
     public bool IsMoving() {
         return !Velocity.IsZeroApprox();
     }
@@ -83,17 +76,27 @@ public partial class Player : CharacterBody3D{
     /// Handles the player movement and is responsible for moving the player. 
     ///</summary>
     private void HandleMovement() {
-        Velocity = new Vector3(GetMovementVectorNormalized().X, 0, GetMovementVectorNormalized().Y);
+        Velocity = new Vector3(GetInputVectorNormalized().X, 0, GetInputVectorNormalized().Y);
 
         Velocity *= moveSpeed;
         MoveAndSlide();
     }
-
+    ///<summary>
+    /// Returns the Animation Player Node attached to the player
+    ///</summary>
     public AnimationPlayer GetPlayerAnimationPlayer() {
         return animationPlayerNode;
     }
-
+    ///<summary>
+    /// Returns the AnimationStateMachine object
+    ///</summary>
     public AnimationStateMachine GetStateMachineNode() {
         return animationStateMachine; 
+    }
+    ///<summary>
+    /// Returns the movement speed of the player
+    ///</summary>
+    public float GetMovementSpeed() {
+        return moveSpeed;
     }
 }

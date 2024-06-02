@@ -10,11 +10,12 @@
 script = ExtResource("1_a7o26")
 
 [node name="Player" parent="." instance=ExtResource("2_ptox7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 181.474, 3.06744, -22.807)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 163.474, -0.932559, -22.807)
 up_direction = Vector3(0, -1, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Player"]
-transform = Transform3D(2.5, 0, 0, 0, 2.4656, 0.413308, 0, -0.413308, 2.4656, 0.390594, 3.43419, 9.32443)
+transform = Transform3D(1, 0, 0, 0, 0.978148, 0.207912, 0, -0.207912, 0.978148, 0, 3, 5)
+fov = 80.0
 
 [node name="Environment" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.343253, 0, -0.38681)

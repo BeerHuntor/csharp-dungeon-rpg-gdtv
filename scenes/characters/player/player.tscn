@@ -1,4 +1,4 @@
-[gd_scene load_steps=88 format=3 uid="uid://dymjhbywl6034"]
+[gd_scene load_steps=89 format=3 uid="uid://dymjhbywl6034"]
 
 [ext_resource type="Texture2D" uid="uid://bu7jb8cnewn67" path="res://assets/Sprites/Characters/Player/Idle Blinking/Idle Blinking_001.png" id="1_0xoc6"]
 [ext_resource type="Script" path="res://scripts/player/Player.cs" id="1_nhb7f"]
@@ -80,6 +80,9 @@
 [ext_resource type="Script" path="res://scripts/player/PlayerIdleState.cs" id="78_apen8"]
 [ext_resource type="Script" path="res://scripts/player/PlayerRunState.cs" id="79_jtna0"]
 [ext_resource type="Script" path="res://scripts/player/PlayerDashState.cs" id="80_fxw1x"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3n6tf"]
+height = 1.44137
 
 [sub_resource type="Animation" id="Animation_166rg"]
 resource_name = "player_death"
@@ -191,6 +194,8 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("playerSpriteNode", "animationPlayerNode", "animationStateMachine")]
+collision_layer = 4
+collision_mask = 11
 script = ExtResource("1_nhb7f")
 moveSpeed = 5.0
 playerSpriteNode = NodePath("Sprite3D")
@@ -198,10 +203,13 @@ animationPlayerNode = NodePath("AnimationPlayer")
 animationStateMachine = NodePath("AnimationStateMachine")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.66738, 0)
 pixel_size = 0.0025
 texture_filter = 0
 texture = ExtResource("2_gsvoq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0330347, 0)
+shape = SubResource("CapsuleShape3D_3n6tf")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../Sprite3D")

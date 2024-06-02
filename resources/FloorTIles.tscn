@@ -1,116 +1,116 @@
 [gd_scene load_steps=29 format=3 uid="uid://blqc8yy45igme"]
 
-[ext_resource type="PackedScene" uid="uid://cmetqws8ldgi7" path="res://assets/Models/Dungeon/gltf/floor_dirt_large.gltf.glb" id="1_tr0b0"]
-[ext_resource type="PackedScene" uid="uid://b2ld45yl3ptkw" path="res://assets/Models/Dungeon/gltf/floor_dirt_large_rocky.gltf.glb" id="2_g41ug"]
-[ext_resource type="PackedScene" uid="uid://b5qjm7fpv43bx" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_A.gltf.glb" id="3_cgwve"]
-[ext_resource type="PackedScene" uid="uid://kl3qj0fopba8" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_B.gltf.glb" id="4_2f7rt"]
-[ext_resource type="PackedScene" uid="uid://dilj7xg002b4i" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_C.gltf.glb" id="5_1ak46"]
-[ext_resource type="PackedScene" uid="uid://tn38j2iwsils" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_corner.gltf.glb" id="6_jbhpc"]
-[ext_resource type="PackedScene" uid="uid://yaysxrn54386" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_D.gltf.glb" id="7_r26u8"]
-[ext_resource type="PackedScene" uid="uid://bhaxhq1d1pxci" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_weeds.gltf.glb" id="8_it72t"]
-[ext_resource type="PackedScene" uid="uid://b2n61ocb5p8x4" path="res://assets/Models/Dungeon/gltf/floor_tile_big_grate.gltf.glb" id="9_a32yy"]
-[ext_resource type="PackedScene" uid="uid://bck2yqqgt6jdt" path="res://assets/Models/Dungeon/gltf/floor_tile_big_grate_open.gltf.glb" id="10_mp5vj"]
-[ext_resource type="PackedScene" uid="uid://dqsc7o07hmxpg" path="res://assets/Models/Dungeon/gltf/floor_tile_big_spikes.glb" id="11_gsmv7"]
-[ext_resource type="PackedScene" uid="uid://b8w1cw7q0thw7" path="res://assets/Models/Dungeon/gltf/floor_tile_extralarge_grates.gltf.glb" id="12_36uyg"]
-[ext_resource type="PackedScene" uid="uid://cgi683d342j5b" path="res://assets/Models/Dungeon/gltf/floor_tile_extralarge_grates_open.gltf.glb" id="13_fls8p"]
-[ext_resource type="PackedScene" uid="uid://xd0fnbbyfqdf" path="res://assets/Models/Dungeon/gltf/floor_tile_grate.gltf.glb" id="14_he1ml"]
-[ext_resource type="PackedScene" uid="uid://b7bf2mqpieju2" path="res://assets/Models/Dungeon/gltf/floor_tile_grate_open.gltf.glb" id="15_xjpto"]
-[ext_resource type="PackedScene" uid="uid://bhhg1m45qcgrf" path="res://assets/Models/Dungeon/gltf/floor_tile_large.gltf.glb" id="16_6exx6"]
-[ext_resource type="PackedScene" uid="uid://ydh2eualc4m5" path="res://assets/Models/Dungeon/gltf/floor_tile_large_rocks.gltf.glb" id="17_chkc6"]
-[ext_resource type="PackedScene" uid="uid://cjm4iisw1puoh" path="res://assets/Models/Dungeon/gltf/floor_tile_small.gltf.glb" id="18_hmsys"]
-[ext_resource type="PackedScene" uid="uid://c43aj6tqjx0cx" path="res://assets/Models/Dungeon/gltf/floor_tile_small_broken_A.gltf.glb" id="19_0vigc"]
-[ext_resource type="PackedScene" uid="uid://byj8trq7jjtcs" path="res://assets/Models/Dungeon/gltf/floor_tile_small_broken_B.gltf.glb" id="20_yqa5s"]
-[ext_resource type="PackedScene" uid="uid://bhqw66or2edgq" path="res://assets/Models/Dungeon/gltf/floor_tile_small_corner.gltf.glb" id="21_3cj7p"]
-[ext_resource type="PackedScene" uid="uid://be52g3dmymi1s" path="res://assets/Models/Dungeon/gltf/floor_tile_small_decorated.gltf.glb" id="22_aeo1h"]
-[ext_resource type="PackedScene" uid="uid://858ees2vqouo" path="res://assets/Models/Dungeon/gltf/floor_tile_small_weeds_A.gltf.glb" id="23_mrx53"]
-[ext_resource type="PackedScene" uid="uid://bnnuvhpseq7x3" path="res://assets/Models/Dungeon/gltf/floor_tile_small_weeds_B.gltf.glb" id="24_jhru3"]
-[ext_resource type="PackedScene" uid="uid://c7efqxigp6okp" path="res://assets/Models/Dungeon/gltf/floor_wood_large.gltf.glb" id="25_87y5l"]
-[ext_resource type="PackedScene" uid="uid://w3oedphgm7tn" path="res://assets/Models/Dungeon/gltf/floor_wood_large_dark.gltf.glb" id="26_a3nln"]
-[ext_resource type="PackedScene" uid="uid://dasqfvob8oume" path="res://assets/Models/Dungeon/gltf/floor_wood_small.gltf.glb" id="27_s504u"]
-[ext_resource type="PackedScene" uid="uid://cov1swp6pmfq5" path="res://assets/Models/Dungeon/gltf/floor_wood_small_dark.gltf.glb" id="28_ss1yb"]
+[ext_resource type="PackedScene" uid="uid://cmetqws8ldgi7" path="res://assets/Models/Dungeon/gltf/floor_dirt_large.gltf.glb" id="1_h5cg5"]
+[ext_resource type="PackedScene" uid="uid://b2ld45yl3ptkw" path="res://assets/Models/Dungeon/gltf/floor_dirt_large_rocky.gltf.glb" id="2_cfynv"]
+[ext_resource type="PackedScene" uid="uid://b5qjm7fpv43bx" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_A.gltf.glb" id="3_8pl5d"]
+[ext_resource type="PackedScene" uid="uid://kl3qj0fopba8" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_B.gltf.glb" id="4_n4osy"]
+[ext_resource type="PackedScene" uid="uid://dilj7xg002b4i" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_C.gltf.glb" id="5_3bov1"]
+[ext_resource type="PackedScene" uid="uid://tn38j2iwsils" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_corner.gltf.glb" id="6_r0jdv"]
+[ext_resource type="PackedScene" uid="uid://yaysxrn54386" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_D.gltf.glb" id="7_0qlbr"]
+[ext_resource type="PackedScene" uid="uid://bhaxhq1d1pxci" path="res://assets/Models/Dungeon/gltf/floor_dirt_small_weeds.gltf.glb" id="8_mcbyl"]
+[ext_resource type="PackedScene" uid="uid://b2n61ocb5p8x4" path="res://assets/Models/Dungeon/gltf/floor_tile_big_grate.gltf.glb" id="9_xon6v"]
+[ext_resource type="PackedScene" uid="uid://bck2yqqgt6jdt" path="res://assets/Models/Dungeon/gltf/floor_tile_big_grate_open.gltf.glb" id="10_4stw2"]
+[ext_resource type="PackedScene" uid="uid://dqsc7o07hmxpg" path="res://assets/Models/Dungeon/gltf/floor_tile_big_spikes.glb" id="11_mei0g"]
+[ext_resource type="PackedScene" uid="uid://b8w1cw7q0thw7" path="res://assets/Models/Dungeon/gltf/floor_tile_extralarge_grates.gltf.glb" id="12_7s66d"]
+[ext_resource type="PackedScene" uid="uid://cgi683d342j5b" path="res://assets/Models/Dungeon/gltf/floor_tile_extralarge_grates_open.gltf.glb" id="13_0d6sm"]
+[ext_resource type="PackedScene" uid="uid://xd0fnbbyfqdf" path="res://assets/Models/Dungeon/gltf/floor_tile_grate.gltf.glb" id="14_5cj6k"]
+[ext_resource type="PackedScene" uid="uid://b7bf2mqpieju2" path="res://assets/Models/Dungeon/gltf/floor_tile_grate_open.gltf.glb" id="15_gv6j3"]
+[ext_resource type="PackedScene" uid="uid://bhhg1m45qcgrf" path="res://assets/Models/Dungeon/gltf/floor_tile_large.gltf.glb" id="16_x4b78"]
+[ext_resource type="PackedScene" uid="uid://ydh2eualc4m5" path="res://assets/Models/Dungeon/gltf/floor_tile_large_rocks.gltf.glb" id="17_ia5yg"]
+[ext_resource type="PackedScene" uid="uid://cjm4iisw1puoh" path="res://assets/Models/Dungeon/gltf/floor_tile_small.gltf.glb" id="18_vuouo"]
+[ext_resource type="PackedScene" uid="uid://c43aj6tqjx0cx" path="res://assets/Models/Dungeon/gltf/floor_tile_small_broken_A.gltf.glb" id="19_kd1pg"]
+[ext_resource type="PackedScene" uid="uid://byj8trq7jjtcs" path="res://assets/Models/Dungeon/gltf/floor_tile_small_broken_B.gltf.glb" id="20_oqur8"]
+[ext_resource type="PackedScene" uid="uid://bhqw66or2edgq" path="res://assets/Models/Dungeon/gltf/floor_tile_small_corner.gltf.glb" id="21_g7v2h"]
+[ext_resource type="PackedScene" uid="uid://be52g3dmymi1s" path="res://assets/Models/Dungeon/gltf/floor_tile_small_decorated.gltf.glb" id="22_ley4v"]
+[ext_resource type="PackedScene" uid="uid://858ees2vqouo" path="res://assets/Models/Dungeon/gltf/floor_tile_small_weeds_A.gltf.glb" id="23_jgha7"]
+[ext_resource type="PackedScene" uid="uid://bnnuvhpseq7x3" path="res://assets/Models/Dungeon/gltf/floor_tile_small_weeds_B.gltf.glb" id="24_jdmgo"]
+[ext_resource type="PackedScene" uid="uid://c7efqxigp6okp" path="res://assets/Models/Dungeon/gltf/floor_wood_large.gltf.glb" id="25_o5p7q"]
+[ext_resource type="PackedScene" uid="uid://w3oedphgm7tn" path="res://assets/Models/Dungeon/gltf/floor_wood_large_dark.gltf.glb" id="26_c3goj"]
+[ext_resource type="PackedScene" uid="uid://dasqfvob8oume" path="res://assets/Models/Dungeon/gltf/floor_wood_small.gltf.glb" id="27_y5g6o"]
+[ext_resource type="PackedScene" uid="uid://cov1swp6pmfq5" path="res://assets/Models/Dungeon/gltf/floor_wood_small_dark.gltf.glb" id="28_eh18q"]
 
 [node name="Tiles" type="Node3D"]
 
-[node name="floor_dirt_large_gltf" parent="." instance=ExtResource("1_tr0b0")]
+[node name="floor_dirt_large_gltf" parent="." instance=ExtResource("1_h5cg5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.5763, 0, 0.20591)
 
-[node name="floor_dirt_large_rocky_gltf" parent="." instance=ExtResource("2_g41ug")]
+[node name="floor_dirt_large_rocky_gltf" parent="." instance=ExtResource("2_cfynv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.529, 0, 5.894)
 
-[node name="floor_dirt_small_A_gltf" parent="." instance=ExtResource("3_cgwve")]
+[node name="floor_dirt_small_A_gltf" parent="." instance=ExtResource("3_8pl5d")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.697, 0, 10.3025)
 
-[node name="floor_dirt_small_B_gltf" parent="." instance=ExtResource("4_2f7rt")]
+[node name="floor_dirt_small_B_gltf" parent="." instance=ExtResource("4_n4osy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9319, 0, 10.1943)
 
-[node name="floor_dirt_small_C_gltf" parent="." instance=ExtResource("5_1ak46")]
+[node name="floor_dirt_small_C_gltf" parent="." instance=ExtResource("5_3bov1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.9492, 0, 13.3011)
 
-[node name="floor_dirt_small_corner_gltf" parent="." instance=ExtResource("6_jbhpc")]
+[node name="floor_dirt_small_corner_gltf" parent="." instance=ExtResource("6_r0jdv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.8813, 0, 13.5339)
 
-[node name="floor_dirt_small_D_gltf" parent="." instance=ExtResource("7_r26u8")]
+[node name="floor_dirt_small_D_gltf" parent="." instance=ExtResource("7_0qlbr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.2362, -1.90735e-06, 13.5482)
 
-[node name="floor_dirt_small_weeds_gltf" parent="." instance=ExtResource("8_it72t")]
+[node name="floor_dirt_small_weeds_gltf" parent="." instance=ExtResource("8_mcbyl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.0445, -1.90735e-06, 10.7365)
 
-[node name="floor_tile_big_grate_gltf" parent="." instance=ExtResource("9_a32yy")]
+[node name="floor_tile_big_grate_gltf" parent="." instance=ExtResource("9_xon6v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.46, 0, 12.5482)
 
-[node name="floor_tile_big_grate_open_gltf" parent="." instance=ExtResource("10_mp5vj")]
+[node name="floor_tile_big_grate_open_gltf" parent="." instance=ExtResource("10_4stw2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.8441, 0, 12.894)
 
-[node name="floor_tile_big_spikes2" parent="." instance=ExtResource("11_gsmv7")]
+[node name="floor_tile_big_spikes2" parent="." instance=ExtResource("11_mei0g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.2055, 0, 13.2822)
 
-[node name="floor_tile_extralarge_grates_gltf" parent="." instance=ExtResource("12_36uyg")]
+[node name="floor_tile_extralarge_grates_gltf" parent="." instance=ExtResource("12_7s66d")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.989, -1.90735e-06, 5.50202)
 
-[node name="floor_tile_extralarge_grates_open_gltf" parent="." instance=ExtResource("13_fls8p")]
+[node name="floor_tile_extralarge_grates_open_gltf" parent="." instance=ExtResource("13_0d6sm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.4671, 0, 20.1893)
 
-[node name="floor_tile_grate_gltf" parent="." instance=ExtResource("14_he1ml")]
+[node name="floor_tile_grate_gltf" parent="." instance=ExtResource("14_5cj6k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.9974, 0, 17.5563)
 
-[node name="floor_tile_grate_open_gltf" parent="." instance=ExtResource("15_xjpto")]
+[node name="floor_tile_grate_open_gltf" parent="." instance=ExtResource("15_gv6j3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.2832, 1.90735e-06, 20.8597)
 
-[node name="floor_tile_large_gltf" parent="." instance=ExtResource("16_6exx6")]
+[node name="floor_tile_large_gltf" parent="." instance=ExtResource("16_x4b78")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.3641, 0, 18.7527)
 
-[node name="floor_tile_large_rocks_gltf" parent="." instance=ExtResource("17_chkc6")]
+[node name="floor_tile_large_rocks_gltf" parent="." instance=ExtResource("17_ia5yg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.6272, 1.90735e-06, 18.6419)
 
-[node name="floor_tile_small_gltf" parent="." instance=ExtResource("18_hmsys")]
+[node name="floor_tile_small_gltf" parent="." instance=ExtResource("18_vuouo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.5634, -0.335133, 4.77367)
 
-[node name="floor_tile_small_broken_A_gltf" parent="." instance=ExtResource("19_0vigc")]
+[node name="floor_tile_small_broken_A_gltf" parent="." instance=ExtResource("19_kd1pg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.5479, 0, 18.4904)
 
-[node name="floor_tile_small_broken_B_gltf" parent="." instance=ExtResource("20_yqa5s")]
+[node name="floor_tile_small_broken_B_gltf" parent="." instance=ExtResource("20_oqur8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.5697, 0, 15.7938)
 
-[node name="floor_tile_small_corner_gltf" parent="." instance=ExtResource("21_3cj7p")]
+[node name="floor_tile_small_corner_gltf" parent="." instance=ExtResource("21_g7v2h")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.2851, 0, 19.1685)
 
-[node name="floor_tile_small_decorated_gltf" parent="." instance=ExtResource("22_aeo1h")]
+[node name="floor_tile_small_decorated_gltf" parent="." instance=ExtResource("22_ley4v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.5823, 1.90735e-06, 16.2022)
 
-[node name="floor_tile_small_weeds_A_gltf" parent="." instance=ExtResource("23_mrx53")]
+[node name="floor_tile_small_weeds_A_gltf" parent="." instance=ExtResource("23_jgha7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.7727, 0, 13.3264)
 
-[node name="floor_tile_small_weeds_B_gltf" parent="." instance=ExtResource("24_jhru3")]
+[node name="floor_tile_small_weeds_B_gltf" parent="." instance=ExtResource("24_jdmgo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.5362, -1.90735e-06, 13.618)
 
-[node name="floor_wood_large_gltf" parent="." instance=ExtResource("25_87y5l")]
+[node name="floor_wood_large_gltf" parent="." instance=ExtResource("25_o5p7q")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.1784, 0, 17.1084)
 
-[node name="floor_wood_large_dark_gltf" parent="." instance=ExtResource("26_a3nln")]
+[node name="floor_wood_large_dark_gltf" parent="." instance=ExtResource("26_c3goj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.8532, 0, 17.2622)
 
-[node name="floor_wood_small_gltf" parent="." instance=ExtResource("27_s504u")]
+[node name="floor_wood_small_gltf" parent="." instance=ExtResource("27_y5g6o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.4633, 0, 18.299)
 
-[node name="floor_wood_small_dark_gltf" parent="." instance=ExtResource("28_ss1yb")]
+[node name="floor_wood_small_dark_gltf" parent="." instance=ExtResource("28_eh18q")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.6754, 0, 15.8436)

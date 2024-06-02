@@ -33,7 +33,7 @@ _subresources={
 "nodes": {
 "PATH:wall": {
 "generate/physics": true,
-"physics/mask": 0,
+"physics/mask": 4,
 "physics/shape_type": 1
 }
 }

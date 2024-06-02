@@ -1,528 +1,528 @@
 [gd_scene load_steps=132 format=3 uid="uid://syfwc4tj5t5t"]
 
-[ext_resource type="PackedScene" uid="uid://tkv2pe3n4ty4" path="res://assets/Models/Dungeon/gltf/trunk_large_A.gltf.glb" id="1_340ku"]
-[ext_resource type="PackedScene" uid="uid://dcnqs7fwvkwnj" path="res://assets/Models/Dungeon/gltf/trunk_medium_A.gltf.glb" id="2_bgo4m"]
-[ext_resource type="PackedScene" uid="uid://cgcdl3m14255v" path="res://assets/Models/Dungeon/gltf/trunk_small_A.gltf.glb" id="3_0wwiy"]
-[ext_resource type="PackedScene" uid="uid://vyi4l4vme6bl" path="res://assets/Models/Dungeon/gltf/trunk_large_B.gltf.glb" id="4_7p7l0"]
-[ext_resource type="PackedScene" uid="uid://cgm5ob58sqf0t" path="res://assets/Models/Dungeon/gltf/trunk_medium_B.gltf.glb" id="5_a7xoy"]
-[ext_resource type="PackedScene" uid="uid://dltdi8sgury4i" path="res://assets/Models/Dungeon/gltf/trunk_small_B.gltf.glb" id="6_ivmk5"]
-[ext_resource type="PackedScene" uid="uid://bof0iatgft6jp" path="res://assets/Models/Dungeon/gltf/trunk_large_C.gltf.glb" id="7_7fv1a"]
-[ext_resource type="PackedScene" uid="uid://6ye3sd5fg635" path="res://assets/Models/Dungeon/gltf/trunk_medium_C.gltf.glb" id="8_uqjjt"]
-[ext_resource type="PackedScene" uid="uid://dj03xvjsr7skc" path="res://assets/Models/Dungeon/gltf/trunk_small_C.gltf.glb" id="9_w6872"]
-[ext_resource type="PackedScene" uid="uid://bhyoh85def1r1" path="res://assets/Models/Dungeon/gltf/torch_mounted.gltf.glb" id="10_dtd4v"]
-[ext_resource type="PackedScene" uid="uid://dmoiq243x4jmr" path="res://assets/Models/Dungeon/gltf/torch_lit.gltf.glb" id="11_vp51q"]
-[ext_resource type="PackedScene" uid="uid://rraws2c1le3f" path="res://assets/Models/Dungeon/gltf/torch.gltf.glb" id="12_later"]
-[ext_resource type="PackedScene" uid="uid://bgarxofuixsgp" path="res://assets/Models/Dungeon/gltf/table_long.gltf.glb" id="13_vwv21"]
-[ext_resource type="PackedScene" uid="uid://ct3rj2ejpupt0" path="res://assets/Models/Dungeon/gltf/table_long_broken.gltf.glb" id="14_7rh02"]
-[ext_resource type="PackedScene" uid="uid://qjbi52kltxpg" path="res://assets/Models/Dungeon/gltf/table_long_decorated_A.gltf.glb" id="15_a8ajy"]
-[ext_resource type="PackedScene" uid="uid://bvc6oqol082ei" path="res://assets/Models/Dungeon/gltf/table_long_decorated_C.gltf.glb" id="16_5ylh0"]
-[ext_resource type="PackedScene" uid="uid://dhoigmfj11k3w" path="res://assets/Models/Dungeon/gltf/table_long_tablecloth.gltf.glb" id="17_wcfua"]
-[ext_resource type="PackedScene" uid="uid://cm7rq60uu7poy" path="res://assets/Models/Dungeon/gltf/table_long_tablecloth_decorated_A.gltf.glb" id="18_jn2h1"]
-[ext_resource type="PackedScene" uid="uid://674ou7c6y74f" path="res://assets/Models/Dungeon/gltf/table_medium.gltf.glb" id="19_3376a"]
-[ext_resource type="PackedScene" uid="uid://b3u25hcf8s1ie" path="res://assets/Models/Dungeon/gltf/table_medium_broken.gltf.glb" id="20_7sl8v"]
-[ext_resource type="PackedScene" uid="uid://bdakl10r02wqm" path="res://assets/Models/Dungeon/gltf/table_medium_decorated_A.gltf.glb" id="21_2kq0v"]
-[ext_resource type="PackedScene" uid="uid://c0qdc13ygl107" path="res://assets/Models/Dungeon/gltf/table_medium_tablecloth.gltf.glb" id="22_wq66r"]
-[ext_resource type="PackedScene" uid="uid://ctewj4k0u8i11" path="res://assets/Models/Dungeon/gltf/table_medium_tablecloth_decorated_B.gltf.glb" id="23_1635p"]
-[ext_resource type="PackedScene" uid="uid://2htgyug0meik" path="res://assets/Models/Dungeon/gltf/table_small.gltf.glb" id="24_j8jb8"]
-[ext_resource type="PackedScene" uid="uid://ysngh2o7u74t" path="res://assets/Models/Dungeon/gltf/table_small_decorated_A.gltf.glb" id="25_nvyhp"]
-[ext_resource type="PackedScene" uid="uid://7r504whnj7jt" path="res://assets/Models/Dungeon/gltf/table_small_decorated_B.gltf.glb" id="26_7u5kd"]
-[ext_resource type="PackedScene" uid="uid://duhclk55y6e7s" path="res://assets/Models/Dungeon/gltf/sword_shield_gold.gltf.glb" id="27_kdo2m"]
-[ext_resource type="PackedScene" uid="uid://bsy1vu64rjqc7" path="res://assets/Models/Dungeon/gltf/sword_shield_broken.gltf.glb" id="28_mnlud"]
-[ext_resource type="PackedScene" uid="uid://b7bi26m06nxuk" path="res://assets/Models/Dungeon/gltf/sword_shield.gltf.glb" id="29_nn20f"]
-[ext_resource type="PackedScene" uid="uid://clon1wl3oio7h" path="res://assets/Models/Dungeon/gltf/stool.gltf.glb" id="30_3ky5q"]
-[ext_resource type="PackedScene" uid="uid://c6prnsu7rtnbh" path="res://assets/Models/Dungeon/gltf/stairs_wood_decorated.gltf.glb" id="31_bxo5k"]
-[ext_resource type="PackedScene" uid="uid://ja0gxc3qkyx1" path="res://assets/Models/Dungeon/gltf/stairs_wood.gltf.glb" id="32_5he03"]
-[ext_resource type="PackedScene" uid="uid://bldf6lv2qmsj8" path="res://assets/Models/Dungeon/gltf/shelves.gltf.glb" id="33_4kh5i"]
-[ext_resource type="PackedScene" uid="uid://bmij7ygyjim53" path="res://assets/Models/Dungeon/gltf/shelf_small_candles.gltf.glb" id="34_iowmq"]
-[ext_resource type="PackedScene" uid="uid://brcasvyr5r3jy" path="res://assets/Models/Dungeon/gltf/shelf_small.gltf.glb" id="35_spl2p"]
-[ext_resource type="PackedScene" uid="uid://bl7ei6y175lsj" path="res://assets/Models/Dungeon/gltf/shelf_large.gltf.glb" id="36_7mqgk"]
-[ext_resource type="PackedScene" uid="uid://ckxlbmo1otcws" path="res://assets/Models/Dungeon/gltf/rubble_large.gltf.glb" id="37_rpkbn"]
-[ext_resource type="PackedScene" uid="uid://bvnjmy8gihxgf" path="res://assets/Models/Dungeon/gltf/rubble_half.gltf.glb" id="38_o08sa"]
-[ext_resource type="PackedScene" uid="uid://c05iqwde5uwnk" path="res://assets/Models/Dungeon/gltf/plate_stack.gltf.glb" id="39_qhwwx"]
-[ext_resource type="PackedScene" uid="uid://cmvp0nhd60wxu" path="res://assets/Models/Dungeon/gltf/plate_small.gltf.glb" id="40_uyecg"]
-[ext_resource type="PackedScene" uid="uid://buf76qweidhgx" path="res://assets/Models/Dungeon/gltf/plate_food_B.gltf.glb" id="41_y0u7f"]
-[ext_resource type="PackedScene" uid="uid://dxn1w7nu270v1" path="res://assets/Models/Dungeon/gltf/plate_food_A.gltf.glb" id="42_iowlp"]
-[ext_resource type="PackedScene" uid="uid://dpgf3ypxc2quv" path="res://assets/Models/Dungeon/gltf/plate.gltf.glb" id="43_gn6fi"]
-[ext_resource type="PackedScene" uid="uid://cmosxtv2a4ji1" path="res://assets/Models/Dungeon/gltf/pillar_decorated.gltf.glb" id="44_bc3wd"]
-[ext_resource type="PackedScene" uid="uid://co2kptmggw547" path="res://assets/Models/Dungeon/gltf/pillar.gltf.glb" id="45_qp64m"]
-[ext_resource type="PackedScene" uid="uid://bagtbgcy8ln3j" path="res://assets/Models/Dungeon/gltf/keyring_hanging.gltf.glb" id="46_ts1at"]
-[ext_resource type="PackedScene" uid="uid://dn1evu7f8sd73" path="res://assets/Models/Dungeon/gltf/keyring.gltf.glb" id="47_vohvm"]
-[ext_resource type="PackedScene" uid="uid://cpoboiwruaxap" path="res://assets/Models/Dungeon/gltf/key.gltf.glb" id="48_42uub"]
-[ext_resource type="PackedScene" uid="uid://cvdw7aatogwm0" path="res://assets/Models/Dungeon/gltf/keg_decorated.gltf.glb" id="49_uqtsi"]
-[ext_resource type="PackedScene" uid="uid://cxoycupgkmbbe" path="res://assets/Models/Dungeon/gltf/keg.gltf.glb" id="50_fy1yn"]
-[ext_resource type="PackedScene" uid="uid://dpwkaij0cdim2" path="res://assets/Models/Dungeon/gltf/crates_stacked.gltf.glb" id="51_57oif"]
-[ext_resource type="PackedScene" uid="uid://cymt1fgn58ca7" path="res://assets/Models/Dungeon/gltf/column.gltf.glb" id="52_5270d"]
-[ext_resource type="PackedScene" uid="uid://7cowsopi4t37" path="res://assets/Models/Dungeon/gltf/coin_stack_small.gltf.glb" id="53_8kx5q"]
-[ext_resource type="PackedScene" uid="uid://bdq55rcw6iftx" path="res://assets/Models/Dungeon/gltf/coin_stack_medium.gltf.glb" id="54_aohky"]
-[ext_resource type="PackedScene" uid="uid://yb0vgbdjk5p7" path="res://assets/Models/Dungeon/gltf/coin_stack_large.gltf.glb" id="55_lokw5"]
-[ext_resource type="PackedScene" uid="uid://by03tfuejafp3" path="res://assets/Models/Dungeon/gltf/coin.gltf.glb" id="56_4u0dx"]
-[ext_resource type="PackedScene" uid="uid://bbtjshl67oulw" path="res://assets/Models/Dungeon/gltf/chest_gold.glb" id="57_a8p3s"]
-[ext_resource type="PackedScene" uid="uid://cvgaf0eyaujlm" path="res://assets/Models/Dungeon/gltf/chest.glb" id="58_ku25k"]
-[ext_resource type="PackedScene" uid="uid://cfwxu22vxjvpv" path="res://assets/Models/Dungeon/gltf/chair.gltf.glb" id="59_uf3uu"]
-[ext_resource type="PackedScene" uid="uid://dve5p7j4sivrc" path="res://assets/Models/Dungeon/gltf/candle_triple.gltf.glb" id="60_2j0lk"]
-[ext_resource type="PackedScene" uid="uid://bjghd5u77b55x" path="res://assets/Models/Dungeon/gltf/candle_thin_lit.gltf.glb" id="61_6l0tk"]
-[ext_resource type="PackedScene" uid="uid://b75fmeb5bjgkq" path="res://assets/Models/Dungeon/gltf/candle_thin.gltf.glb" id="62_6mch5"]
-[ext_resource type="PackedScene" uid="uid://bhqy3bje504b7" path="res://assets/Models/Dungeon/gltf/candle_melted.gltf.glb" id="63_2km31"]
-[ext_resource type="PackedScene" uid="uid://bsmhgq3bnci8y" path="res://assets/Models/Dungeon/gltf/candle_lit.gltf.glb" id="64_3u1ll"]
-[ext_resource type="PackedScene" uid="uid://dk0ujojti3swn" path="res://assets/Models/Dungeon/gltf/candle.gltf.glb" id="65_e8ui8"]
-[ext_resource type="PackedScene" uid="uid://btgtbfi6tocf3" path="res://assets/Models/Dungeon/gltf/box_stacked.gltf.glb" id="66_bfkde"]
-[ext_resource type="PackedScene" uid="uid://c65gkit71h7u0" path="res://assets/Models/Dungeon/gltf/box_small_decorated.gltf.glb" id="67_02tk3"]
-[ext_resource type="PackedScene" uid="uid://x1gsxln4g5c2" path="res://assets/Models/Dungeon/gltf/box_small.gltf.glb" id="68_8e4xo"]
-[ext_resource type="PackedScene" uid="uid://bo6fdghvkb44h" path="res://assets/Models/Dungeon/gltf/box_large.gltf.glb" id="69_mfrqw"]
-[ext_resource type="PackedScene" uid="uid://dmj1oglhfkchd" path="res://assets/Models/Dungeon/gltf/bottle_C_green.gltf.glb" id="70_2wdkc"]
-[ext_resource type="PackedScene" uid="uid://dgyjxtsiogkcf" path="res://assets/Models/Dungeon/gltf/bottle_C_brown.gltf.glb" id="71_bhx68"]
-[ext_resource type="PackedScene" uid="uid://bib7g4s1lkngd" path="res://assets/Models/Dungeon/gltf/bottle_B_green.gltf.glb" id="72_o15hq"]
-[ext_resource type="PackedScene" uid="uid://cd1t0f4m3eb3h" path="res://assets/Models/Dungeon/gltf/bottle_B_brown.gltf.glb" id="73_0fnjs"]
-[ext_resource type="PackedScene" uid="uid://b4n7qvj45ef5u" path="res://assets/Models/Dungeon/gltf/bottle_A_labeled_green.gltf.glb" id="74_5luyu"]
-[ext_resource type="PackedScene" uid="uid://dafujm61i3gbw" path="res://assets/Models/Dungeon/gltf/bottle_A_labeled_brown.gltf.glb" id="75_towq5"]
-[ext_resource type="PackedScene" uid="uid://cb4dm1tl45yuw" path="res://assets/Models/Dungeon/gltf/bottle_A_green.gltf.glb" id="76_1p8mg"]
-[ext_resource type="PackedScene" uid="uid://lc37oye7ek8i" path="res://assets/Models/Dungeon/gltf/bottle_A_brown.gltf.glb" id="77_6ijtt"]
-[ext_resource type="PackedScene" uid="uid://5lq8ef5jrhc1" path="res://assets/Models/Dungeon/gltf/bed_frame.gltf.glb" id="78_pplpv"]
-[ext_resource type="PackedScene" uid="uid://bx86lpfkf35wg" path="res://assets/Models/Dungeon/gltf/bed_floor.gltf.glb" id="79_dfqom"]
-[ext_resource type="PackedScene" uid="uid://b8b61735gj6f0" path="res://assets/Models/Dungeon/gltf/bed_decorated.gltf.glb" id="80_1240f"]
-[ext_resource type="PackedScene" uid="uid://cfqbpe3smxp47" path="res://assets/Models/Dungeon/gltf/barrier_half.gltf.glb" id="81_rxmti"]
-[ext_resource type="PackedScene" uid="uid://n4g0t7rf08od" path="res://assets/Models/Dungeon/gltf/barrier_corner.gltf.glb" id="82_twtp2"]
-[ext_resource type="PackedScene" uid="uid://01pn3jtb3v8t" path="res://assets/Models/Dungeon/gltf/barrier_colum_half.gltf.glb" id="83_x22wm"]
-[ext_resource type="PackedScene" uid="uid://bi0j5cs4fohfg" path="res://assets/Models/Dungeon/gltf/barrier_column.gltf.glb" id="84_bvy02"]
-[ext_resource type="PackedScene" uid="uid://bt1lq3p3q3m1l" path="res://assets/Models/Dungeon/gltf/barrier.gltf.glb" id="85_egql1"]
-[ext_resource type="PackedScene" uid="uid://csmsyhysm0qs6" path="res://assets/Models/Dungeon/gltf/barrel_small_stack.gltf.glb" id="86_h0uq0"]
-[ext_resource type="PackedScene" uid="uid://fetdedrbe047" path="res://assets/Models/Dungeon/gltf/barrel_small.gltf.glb" id="87_q580r"]
-[ext_resource type="PackedScene" uid="uid://5gj3bffjcq6l" path="res://assets/Models/Dungeon/gltf/barrel_large_decorated.gltf.glb" id="88_gyw7o"]
-[ext_resource type="PackedScene" uid="uid://duqmgwkloek3f" path="res://assets/Models/Dungeon/gltf/barrel_large.gltf.glb" id="89_xltsu"]
-[ext_resource type="PackedScene" uid="uid://2u6d7wq6631b" path="res://assets/Models/Dungeon/gltf/banner_yellow.gltf.glb" id="90_hylpm"]
-[ext_resource type="PackedScene" uid="uid://c4p7q1smf6u15" path="res://assets/Models/Dungeon/gltf/banner_white.gltf.glb" id="91_j11lm"]
-[ext_resource type="PackedScene" uid="uid://b6cva811v5g5y" path="res://assets/Models/Dungeon/gltf/banner_triple_yellow.gltf.glb" id="92_u8jlc"]
-[ext_resource type="PackedScene" uid="uid://uoyu67cb7bia" path="res://assets/Models/Dungeon/gltf/banner_triple_white.gltf.glb" id="93_bsmk2"]
-[ext_resource type="PackedScene" uid="uid://c78g0b5qcecic" path="res://assets/Models/Dungeon/gltf/banner_triple_red.gltf.glb" id="94_emeyy"]
-[ext_resource type="PackedScene" uid="uid://btlk6xqkfcpur" path="res://assets/Models/Dungeon/gltf/banner_triple_green.gltf.glb" id="95_uvyl6"]
-[ext_resource type="PackedScene" uid="uid://bmblmiftkxkjl" path="res://assets/Models/Dungeon/gltf/banner_triple_brown.gltf.glb" id="96_ynvf3"]
-[ext_resource type="PackedScene" uid="uid://daoek0dxef0am" path="res://assets/Models/Dungeon/gltf/banner_triple_blue.gltf.glb" id="97_tkvjl"]
-[ext_resource type="PackedScene" uid="uid://44wwa6vch27e" path="res://assets/Models/Dungeon/gltf/banner_thin_yellow.gltf.glb" id="98_kv82b"]
-[ext_resource type="PackedScene" uid="uid://c3buwedmnow1h" path="res://assets/Models/Dungeon/gltf/banner_thin_white.gltf.glb" id="99_5310j"]
-[ext_resource type="PackedScene" uid="uid://dig5gab4d8uar" path="res://assets/Models/Dungeon/gltf/banner_thin_red.gltf.glb" id="100_yle1i"]
-[ext_resource type="PackedScene" uid="uid://dc7iadiu5bpau" path="res://assets/Models/Dungeon/gltf/banner_thin_green.gltf.glb" id="101_cf15n"]
-[ext_resource type="PackedScene" uid="uid://1dqmaqvp2p76" path="res://assets/Models/Dungeon/gltf/banner_thin_brown.gltf.glb" id="102_0ckkx"]
-[ext_resource type="PackedScene" uid="uid://bkrceu2kisxev" path="res://assets/Models/Dungeon/gltf/banner_thin_blue.gltf.glb" id="103_u3tcu"]
-[ext_resource type="PackedScene" uid="uid://dmn8vcs6mfuqo" path="res://assets/Models/Dungeon/gltf/banner_shield_yellow.gltf.glb" id="104_quu3v"]
-[ext_resource type="PackedScene" uid="uid://diapl2sbkxstl" path="res://assets/Models/Dungeon/gltf/banner_shield_white.gltf.glb" id="105_hq5br"]
-[ext_resource type="PackedScene" uid="uid://cy7rc13lvhmvj" path="res://assets/Models/Dungeon/gltf/banner_shield_red.gltf.glb" id="106_8kkat"]
-[ext_resource type="PackedScene" uid="uid://b64yygrstc72i" path="res://assets/Models/Dungeon/gltf/banner_shield_green.gltf.glb" id="107_uehj0"]
-[ext_resource type="PackedScene" uid="uid://b44klqajyelte" path="res://assets/Models/Dungeon/gltf/banner_shield_brown.gltf.glb" id="108_r485u"]
-[ext_resource type="PackedScene" uid="uid://cehtmxsy6h44i" path="res://assets/Models/Dungeon/gltf/banner_shield_blue.gltf.glb" id="109_1nysv"]
-[ext_resource type="PackedScene" uid="uid://ctl5x2uoproef" path="res://assets/Models/Dungeon/gltf/banner_red.gltf.glb" id="110_kqm58"]
-[ext_resource type="PackedScene" uid="uid://ddyskdswe37c1" path="res://assets/Models/Dungeon/gltf/banner_patternC_yellow.gltf.glb" id="111_gmndv"]
-[ext_resource type="PackedScene" uid="uid://xlmgvdtiq5uo" path="res://assets/Models/Dungeon/gltf/banner_patternC_white.gltf.glb" id="112_w2seg"]
-[ext_resource type="PackedScene" uid="uid://748xvyrinh5n" path="res://assets/Models/Dungeon/gltf/banner_patternC_red.gltf.glb" id="113_4rdtp"]
-[ext_resource type="PackedScene" uid="uid://gnyy61330kua" path="res://assets/Models/Dungeon/gltf/banner_patternC_green.gltf.glb" id="114_igjak"]
-[ext_resource type="PackedScene" uid="uid://cbouqolgfflhv" path="res://assets/Models/Dungeon/gltf/banner_patternC_brown.gltf.glb" id="115_l4wni"]
-[ext_resource type="PackedScene" uid="uid://bb8w4cpxnuhsb" path="res://assets/Models/Dungeon/gltf/banner_patternC_blue.gltf.glb" id="116_sye8o"]
-[ext_resource type="PackedScene" uid="uid://m2xjp57s43qm" path="res://assets/Models/Dungeon/gltf/banner_patternB_yellow.gltf.glb" id="117_o3in5"]
-[ext_resource type="PackedScene" uid="uid://b3xge0hb87c3k" path="res://assets/Models/Dungeon/gltf/banner_patternB_white.gltf.glb" id="118_faecr"]
-[ext_resource type="PackedScene" uid="uid://d3ubmlrjonwes" path="res://assets/Models/Dungeon/gltf/banner_patternB_red.gltf.glb" id="119_n1eys"]
-[ext_resource type="PackedScene" uid="uid://duo2oef4nl2w3" path="res://assets/Models/Dungeon/gltf/banner_patternB_green.gltf.glb" id="120_dd43d"]
-[ext_resource type="PackedScene" uid="uid://rqv7sk6fmleu" path="res://assets/Models/Dungeon/gltf/banner_patternB_brown.gltf.glb" id="121_2hmde"]
-[ext_resource type="PackedScene" uid="uid://dwyhc4grynvqf" path="res://assets/Models/Dungeon/gltf/banner_patternB_blue.gltf.glb" id="122_j4j6j"]
-[ext_resource type="PackedScene" uid="uid://ek05q7ob2rs1" path="res://assets/Models/Dungeon/gltf/banner_patternA_yellow.gltf.glb" id="123_ym7ok"]
-[ext_resource type="PackedScene" uid="uid://gpfpb4pfkgse" path="res://assets/Models/Dungeon/gltf/banner_patternA_white.gltf.glb" id="124_lx1io"]
-[ext_resource type="PackedScene" uid="uid://keyyqq3lncjr" path="res://assets/Models/Dungeon/gltf/banner_patternA_red.gltf.glb" id="125_sbm3v"]
-[ext_resource type="PackedScene" uid="uid://d35hlb1v6llul" path="res://assets/Models/Dungeon/gltf/banner_patternA_green.gltf.glb" id="126_3fgkh"]
-[ext_resource type="PackedScene" uid="uid://cb25moq0eogk2" path="res://assets/Models/Dungeon/gltf/banner_patternA_brown.gltf.glb" id="127_8hisr"]
-[ext_resource type="PackedScene" uid="uid://cshaaph4bdkpu" path="res://assets/Models/Dungeon/gltf/banner_patternA_blue.gltf.glb" id="128_347t8"]
-[ext_resource type="PackedScene" uid="uid://b0nlexnwf32pb" path="res://assets/Models/Dungeon/gltf/banner_green.gltf.glb" id="129_yt64j"]
-[ext_resource type="PackedScene" uid="uid://lkcmpcl2447g" path="res://assets/Models/Dungeon/gltf/banner_brown.gltf.glb" id="130_78eqn"]
-[ext_resource type="PackedScene" uid="uid://cu5xyy3ycv7ni" path="res://assets/Models/Dungeon/gltf/banner_blue.gltf.glb" id="131_m3s1h"]
+[ext_resource type="PackedScene" uid="uid://tkv2pe3n4ty4" path="res://assets/Models/Dungeon/gltf/trunk_large_A.gltf.glb" id="1_6fxjn"]
+[ext_resource type="PackedScene" uid="uid://dcnqs7fwvkwnj" path="res://assets/Models/Dungeon/gltf/trunk_medium_A.gltf.glb" id="2_itpv8"]
+[ext_resource type="PackedScene" uid="uid://cgcdl3m14255v" path="res://assets/Models/Dungeon/gltf/trunk_small_A.gltf.glb" id="3_tf5b6"]
+[ext_resource type="PackedScene" uid="uid://vyi4l4vme6bl" path="res://assets/Models/Dungeon/gltf/trunk_large_B.gltf.glb" id="4_51rr6"]
+[ext_resource type="PackedScene" uid="uid://cgm5ob58sqf0t" path="res://assets/Models/Dungeon/gltf/trunk_medium_B.gltf.glb" id="5_3euxe"]
+[ext_resource type="PackedScene" uid="uid://dltdi8sgury4i" path="res://assets/Models/Dungeon/gltf/trunk_small_B.gltf.glb" id="6_86sx1"]
+[ext_resource type="PackedScene" uid="uid://bof0iatgft6jp" path="res://assets/Models/Dungeon/gltf/trunk_large_C.gltf.glb" id="7_jxjfg"]
+[ext_resource type="PackedScene" uid="uid://6ye3sd5fg635" path="res://assets/Models/Dungeon/gltf/trunk_medium_C.gltf.glb" id="8_dryaj"]
+[ext_resource type="PackedScene" uid="uid://dj03xvjsr7skc" path="res://assets/Models/Dungeon/gltf/trunk_small_C.gltf.glb" id="9_yam4n"]
+[ext_resource type="PackedScene" uid="uid://bhyoh85def1r1" path="res://assets/Models/Dungeon/gltf/torch_mounted.gltf.glb" id="10_wkm5a"]
+[ext_resource type="PackedScene" uid="uid://dmoiq243x4jmr" path="res://assets/Models/Dungeon/gltf/torch_lit.gltf.glb" id="11_6nxby"]
+[ext_resource type="PackedScene" uid="uid://rraws2c1le3f" path="res://assets/Models/Dungeon/gltf/torch.gltf.glb" id="12_hk6wa"]
+[ext_resource type="PackedScene" uid="uid://bgarxofuixsgp" path="res://assets/Models/Dungeon/gltf/table_long.gltf.glb" id="13_p3y87"]
+[ext_resource type="PackedScene" uid="uid://ct3rj2ejpupt0" path="res://assets/Models/Dungeon/gltf/table_long_broken.gltf.glb" id="14_g6rma"]
+[ext_resource type="PackedScene" uid="uid://qjbi52kltxpg" path="res://assets/Models/Dungeon/gltf/table_long_decorated_A.gltf.glb" id="15_nbjh7"]
+[ext_resource type="PackedScene" uid="uid://bvc6oqol082ei" path="res://assets/Models/Dungeon/gltf/table_long_decorated_C.gltf.glb" id="16_s0sgx"]
+[ext_resource type="PackedScene" uid="uid://dhoigmfj11k3w" path="res://assets/Models/Dungeon/gltf/table_long_tablecloth.gltf.glb" id="17_4ifix"]
+[ext_resource type="PackedScene" uid="uid://cm7rq60uu7poy" path="res://assets/Models/Dungeon/gltf/table_long_tablecloth_decorated_A.gltf.glb" id="18_2gl7e"]
+[ext_resource type="PackedScene" uid="uid://674ou7c6y74f" path="res://assets/Models/Dungeon/gltf/table_medium.gltf.glb" id="19_8abaq"]
+[ext_resource type="PackedScene" uid="uid://b3u25hcf8s1ie" path="res://assets/Models/Dungeon/gltf/table_medium_broken.gltf.glb" id="20_vvto6"]
+[ext_resource type="PackedScene" uid="uid://bdakl10r02wqm" path="res://assets/Models/Dungeon/gltf/table_medium_decorated_A.gltf.glb" id="21_ehen8"]
+[ext_resource type="PackedScene" uid="uid://c0qdc13ygl107" path="res://assets/Models/Dungeon/gltf/table_medium_tablecloth.gltf.glb" id="22_sj3h8"]
+[ext_resource type="PackedScene" uid="uid://ctewj4k0u8i11" path="res://assets/Models/Dungeon/gltf/table_medium_tablecloth_decorated_B.gltf.glb" id="23_celm7"]
+[ext_resource type="PackedScene" uid="uid://2htgyug0meik" path="res://assets/Models/Dungeon/gltf/table_small.gltf.glb" id="24_2kg1d"]
+[ext_resource type="PackedScene" uid="uid://ysngh2o7u74t" path="res://assets/Models/Dungeon/gltf/table_small_decorated_A.gltf.glb" id="25_065ov"]
+[ext_resource type="PackedScene" uid="uid://7r504whnj7jt" path="res://assets/Models/Dungeon/gltf/table_small_decorated_B.gltf.glb" id="26_vxrpw"]
+[ext_resource type="PackedScene" uid="uid://duhclk55y6e7s" path="res://assets/Models/Dungeon/gltf/sword_shield_gold.gltf.glb" id="27_m4lap"]
+[ext_resource type="PackedScene" uid="uid://bsy1vu64rjqc7" path="res://assets/Models/Dungeon/gltf/sword_shield_broken.gltf.glb" id="28_sewxp"]
+[ext_resource type="PackedScene" uid="uid://b7bi26m06nxuk" path="res://assets/Models/Dungeon/gltf/sword_shield.gltf.glb" id="29_r6o3p"]
+[ext_resource type="PackedScene" uid="uid://clon1wl3oio7h" path="res://assets/Models/Dungeon/gltf/stool.gltf.glb" id="30_8j4ef"]
+[ext_resource type="PackedScene" uid="uid://c6prnsu7rtnbh" path="res://assets/Models/Dungeon/gltf/stairs_wood_decorated.gltf.glb" id="31_bipgf"]
+[ext_resource type="PackedScene" uid="uid://ja0gxc3qkyx1" path="res://assets/Models/Dungeon/gltf/stairs_wood.gltf.glb" id="32_62pe6"]
+[ext_resource type="PackedScene" uid="uid://bldf6lv2qmsj8" path="res://assets/Models/Dungeon/gltf/shelves.gltf.glb" id="33_bdwmt"]
+[ext_resource type="PackedScene" uid="uid://bmij7ygyjim53" path="res://assets/Models/Dungeon/gltf/shelf_small_candles.gltf.glb" id="34_jykao"]
+[ext_resource type="PackedScene" uid="uid://brcasvyr5r3jy" path="res://assets/Models/Dungeon/gltf/shelf_small.gltf.glb" id="35_01s7p"]
+[ext_resource type="PackedScene" uid="uid://bl7ei6y175lsj" path="res://assets/Models/Dungeon/gltf/shelf_large.gltf.glb" id="36_yvlwt"]
+[ext_resource type="PackedScene" uid="uid://ckxlbmo1otcws" path="res://assets/Models/Dungeon/gltf/rubble_large.gltf.glb" id="37_2rj0n"]
+[ext_resource type="PackedScene" uid="uid://bvnjmy8gihxgf" path="res://assets/Models/Dungeon/gltf/rubble_half.gltf.glb" id="38_g48at"]
+[ext_resource type="PackedScene" uid="uid://c05iqwde5uwnk" path="res://assets/Models/Dungeon/gltf/plate_stack.gltf.glb" id="39_ta12m"]
+[ext_resource type="PackedScene" uid="uid://cmvp0nhd60wxu" path="res://assets/Models/Dungeon/gltf/plate_small.gltf.glb" id="40_yye6k"]
+[ext_resource type="PackedScene" uid="uid://buf76qweidhgx" path="res://assets/Models/Dungeon/gltf/plate_food_B.gltf.glb" id="41_oreyb"]
+[ext_resource type="PackedScene" uid="uid://dxn1w7nu270v1" path="res://assets/Models/Dungeon/gltf/plate_food_A.gltf.glb" id="42_mo8rg"]
+[ext_resource type="PackedScene" uid="uid://dpgf3ypxc2quv" path="res://assets/Models/Dungeon/gltf/plate.gltf.glb" id="43_ktx7t"]
+[ext_resource type="PackedScene" uid="uid://cmosxtv2a4ji1" path="res://assets/Models/Dungeon/gltf/pillar_decorated.gltf.glb" id="44_2ioh2"]
+[ext_resource type="PackedScene" uid="uid://co2kptmggw547" path="res://assets/Models/Dungeon/gltf/pillar.gltf.glb" id="45_f3els"]
+[ext_resource type="PackedScene" uid="uid://bagtbgcy8ln3j" path="res://assets/Models/Dungeon/gltf/keyring_hanging.gltf.glb" id="46_7nbfg"]
+[ext_resource type="PackedScene" uid="uid://dn1evu7f8sd73" path="res://assets/Models/Dungeon/gltf/keyring.gltf.glb" id="47_uk48u"]
+[ext_resource type="PackedScene" uid="uid://cpoboiwruaxap" path="res://assets/Models/Dungeon/gltf/key.gltf.glb" id="48_i4fah"]
+[ext_resource type="PackedScene" uid="uid://cvdw7aatogwm0" path="res://assets/Models/Dungeon/gltf/keg_decorated.gltf.glb" id="49_xpy6e"]
+[ext_resource type="PackedScene" uid="uid://cxoycupgkmbbe" path="res://assets/Models/Dungeon/gltf/keg.gltf.glb" id="50_40sem"]
+[ext_resource type="PackedScene" uid="uid://dpwkaij0cdim2" path="res://assets/Models/Dungeon/gltf/crates_stacked.gltf.glb" id="51_wcncf"]
+[ext_resource type="PackedScene" uid="uid://cymt1fgn58ca7" path="res://assets/Models/Dungeon/gltf/column.gltf.glb" id="52_u84dt"]
+[ext_resource type="PackedScene" uid="uid://7cowsopi4t37" path="res://assets/Models/Dungeon/gltf/coin_stack_small.gltf.glb" id="53_wml2f"]
+[ext_resource type="PackedScene" uid="uid://bdq55rcw6iftx" path="res://assets/Models/Dungeon/gltf/coin_stack_medium.gltf.glb" id="54_nfq5r"]
+[ext_resource type="PackedScene" uid="uid://yb0vgbdjk5p7" path="res://assets/Models/Dungeon/gltf/coin_stack_large.gltf.glb" id="55_3e2e4"]
+[ext_resource type="PackedScene" uid="uid://by03tfuejafp3" path="res://assets/Models/Dungeon/gltf/coin.gltf.glb" id="56_80i45"]
+[ext_resource type="PackedScene" uid="uid://bbtjshl67oulw" path="res://assets/Models/Dungeon/gltf/chest_gold.glb" id="57_juvl8"]
+[ext_resource type="PackedScene" uid="uid://cvgaf0eyaujlm" path="res://assets/Models/Dungeon/gltf/chest.glb" id="58_wv771"]
+[ext_resource type="PackedScene" uid="uid://cfwxu22vxjvpv" path="res://assets/Models/Dungeon/gltf/chair.gltf.glb" id="59_3l0w5"]
+[ext_resource type="PackedScene" uid="uid://dve5p7j4sivrc" path="res://assets/Models/Dungeon/gltf/candle_triple.gltf.glb" id="60_o2ymb"]
+[ext_resource type="PackedScene" uid="uid://bjghd5u77b55x" path="res://assets/Models/Dungeon/gltf/candle_thin_lit.gltf.glb" id="61_4gpqg"]
+[ext_resource type="PackedScene" uid="uid://b75fmeb5bjgkq" path="res://assets/Models/Dungeon/gltf/candle_thin.gltf.glb" id="62_q5sdt"]
+[ext_resource type="PackedScene" uid="uid://bhqy3bje504b7" path="res://assets/Models/Dungeon/gltf/candle_melted.gltf.glb" id="63_2amso"]
+[ext_resource type="PackedScene" uid="uid://bsmhgq3bnci8y" path="res://assets/Models/Dungeon/gltf/candle_lit.gltf.glb" id="64_fpqvo"]
+[ext_resource type="PackedScene" uid="uid://dk0ujojti3swn" path="res://assets/Models/Dungeon/gltf/candle.gltf.glb" id="65_qhawe"]
+[ext_resource type="PackedScene" uid="uid://btgtbfi6tocf3" path="res://assets/Models/Dungeon/gltf/box_stacked.gltf.glb" id="66_6lf5l"]
+[ext_resource type="PackedScene" uid="uid://c65gkit71h7u0" path="res://assets/Models/Dungeon/gltf/box_small_decorated.gltf.glb" id="67_qrngr"]
+[ext_resource type="PackedScene" uid="uid://x1gsxln4g5c2" path="res://assets/Models/Dungeon/gltf/box_small.gltf.glb" id="68_vk0ey"]
+[ext_resource type="PackedScene" uid="uid://bo6fdghvkb44h" path="res://assets/Models/Dungeon/gltf/box_large.gltf.glb" id="69_5frdp"]
+[ext_resource type="PackedScene" uid="uid://dmj1oglhfkchd" path="res://assets/Models/Dungeon/gltf/bottle_C_green.gltf.glb" id="70_n0upq"]
+[ext_resource type="PackedScene" uid="uid://dgyjxtsiogkcf" path="res://assets/Models/Dungeon/gltf/bottle_C_brown.gltf.glb" id="71_jriy0"]
+[ext_resource type="PackedScene" uid="uid://bib7g4s1lkngd" path="res://assets/Models/Dungeon/gltf/bottle_B_green.gltf.glb" id="72_ye2tp"]
+[ext_resource type="PackedScene" uid="uid://cd1t0f4m3eb3h" path="res://assets/Models/Dungeon/gltf/bottle_B_brown.gltf.glb" id="73_mj21t"]
+[ext_resource type="PackedScene" uid="uid://b4n7qvj45ef5u" path="res://assets/Models/Dungeon/gltf/bottle_A_labeled_green.gltf.glb" id="74_lclpb"]
+[ext_resource type="PackedScene" uid="uid://dafujm61i3gbw" path="res://assets/Models/Dungeon/gltf/bottle_A_labeled_brown.gltf.glb" id="75_o3g2y"]
+[ext_resource type="PackedScene" uid="uid://cb4dm1tl45yuw" path="res://assets/Models/Dungeon/gltf/bottle_A_green.gltf.glb" id="76_rht5o"]
+[ext_resource type="PackedScene" uid="uid://lc37oye7ek8i" path="res://assets/Models/Dungeon/gltf/bottle_A_brown.gltf.glb" id="77_sf5de"]
+[ext_resource type="PackedScene" uid="uid://5lq8ef5jrhc1" path="res://assets/Models/Dungeon/gltf/bed_frame.gltf.glb" id="78_nx2mb"]
+[ext_resource type="PackedScene" uid="uid://bx86lpfkf35wg" path="res://assets/Models/Dungeon/gltf/bed_floor.gltf.glb" id="79_rwjls"]
+[ext_resource type="PackedScene" uid="uid://b8b61735gj6f0" path="res://assets/Models/Dungeon/gltf/bed_decorated.gltf.glb" id="80_njcbi"]
+[ext_resource type="PackedScene" uid="uid://cfqbpe3smxp47" path="res://assets/Models/Dungeon/gltf/barrier_half.gltf.glb" id="81_cbqs3"]
+[ext_resource type="PackedScene" uid="uid://n4g0t7rf08od" path="res://assets/Models/Dungeon/gltf/barrier_corner.gltf.glb" id="82_glipv"]
+[ext_resource type="PackedScene" uid="uid://01pn3jtb3v8t" path="res://assets/Models/Dungeon/gltf/barrier_colum_half.gltf.glb" id="83_1juwh"]
+[ext_resource type="PackedScene" uid="uid://bi0j5cs4fohfg" path="res://assets/Models/Dungeon/gltf/barrier_column.gltf.glb" id="84_gasdv"]
+[ext_resource type="PackedScene" uid="uid://bt1lq3p3q3m1l" path="res://assets/Models/Dungeon/gltf/barrier.gltf.glb" id="85_15i26"]
+[ext_resource type="PackedScene" uid="uid://csmsyhysm0qs6" path="res://assets/Models/Dungeon/gltf/barrel_small_stack.gltf.glb" id="86_wujqm"]
+[ext_resource type="PackedScene" uid="uid://fetdedrbe047" path="res://assets/Models/Dungeon/gltf/barrel_small.gltf.glb" id="87_mwfnp"]
+[ext_resource type="PackedScene" uid="uid://5gj3bffjcq6l" path="res://assets/Models/Dungeon/gltf/barrel_large_decorated.gltf.glb" id="88_ltrtb"]
+[ext_resource type="PackedScene" uid="uid://duqmgwkloek3f" path="res://assets/Models/Dungeon/gltf/barrel_large.gltf.glb" id="89_dyrto"]
+[ext_resource type="PackedScene" uid="uid://2u6d7wq6631b" path="res://assets/Models/Dungeon/gltf/banner_yellow.gltf.glb" id="90_0xydt"]
+[ext_resource type="PackedScene" uid="uid://c4p7q1smf6u15" path="res://assets/Models/Dungeon/gltf/banner_white.gltf.glb" id="91_ub3dc"]
+[ext_resource type="PackedScene" uid="uid://b6cva811v5g5y" path="res://assets/Models/Dungeon/gltf/banner_triple_yellow.gltf.glb" id="92_wf3w8"]
+[ext_resource type="PackedScene" uid="uid://uoyu67cb7bia" path="res://assets/Models/Dungeon/gltf/banner_triple_white.gltf.glb" id="93_hngvq"]
+[ext_resource type="PackedScene" uid="uid://c78g0b5qcecic" path="res://assets/Models/Dungeon/gltf/banner_triple_red.gltf.glb" id="94_b332c"]
+[ext_resource type="PackedScene" uid="uid://btlk6xqkfcpur" path="res://assets/Models/Dungeon/gltf/banner_triple_green.gltf.glb" id="95_30ugt"]
+[ext_resource type="PackedScene" uid="uid://bmblmiftkxkjl" path="res://assets/Models/Dungeon/gltf/banner_triple_brown.gltf.glb" id="96_kpqm6"]
+[ext_resource type="PackedScene" uid="uid://daoek0dxef0am" path="res://assets/Models/Dungeon/gltf/banner_triple_blue.gltf.glb" id="97_ti8ik"]
+[ext_resource type="PackedScene" uid="uid://44wwa6vch27e" path="res://assets/Models/Dungeon/gltf/banner_thin_yellow.gltf.glb" id="98_16s6v"]
+[ext_resource type="PackedScene" uid="uid://c3buwedmnow1h" path="res://assets/Models/Dungeon/gltf/banner_thin_white.gltf.glb" id="99_cqx51"]
+[ext_resource type="PackedScene" uid="uid://dig5gab4d8uar" path="res://assets/Models/Dungeon/gltf/banner_thin_red.gltf.glb" id="100_hr5yc"]
+[ext_resource type="PackedScene" uid="uid://dc7iadiu5bpau" path="res://assets/Models/Dungeon/gltf/banner_thin_green.gltf.glb" id="101_xs5ag"]
+[ext_resource type="PackedScene" uid="uid://1dqmaqvp2p76" path="res://assets/Models/Dungeon/gltf/banner_thin_brown.gltf.glb" id="102_5nn2p"]
+[ext_resource type="PackedScene" uid="uid://bkrceu2kisxev" path="res://assets/Models/Dungeon/gltf/banner_thin_blue.gltf.glb" id="103_ysi5m"]
+[ext_resource type="PackedScene" uid="uid://dmn8vcs6mfuqo" path="res://assets/Models/Dungeon/gltf/banner_shield_yellow.gltf.glb" id="104_fsavf"]
+[ext_resource type="PackedScene" uid="uid://diapl2sbkxstl" path="res://assets/Models/Dungeon/gltf/banner_shield_white.gltf.glb" id="105_wdel5"]
+[ext_resource type="PackedScene" uid="uid://cy7rc13lvhmvj" path="res://assets/Models/Dungeon/gltf/banner_shield_red.gltf.glb" id="106_xho5w"]
+[ext_resource type="PackedScene" uid="uid://b64yygrstc72i" path="res://assets/Models/Dungeon/gltf/banner_shield_green.gltf.glb" id="107_2e4wd"]
+[ext_resource type="PackedScene" uid="uid://b44klqajyelte" path="res://assets/Models/Dungeon/gltf/banner_shield_brown.gltf.glb" id="108_mfgbx"]
+[ext_resource type="PackedScene" uid="uid://cehtmxsy6h44i" path="res://assets/Models/Dungeon/gltf/banner_shield_blue.gltf.glb" id="109_gkmsu"]
+[ext_resource type="PackedScene" uid="uid://ctl5x2uoproef" path="res://assets/Models/Dungeon/gltf/banner_red.gltf.glb" id="110_qhrs6"]
+[ext_resource type="PackedScene" uid="uid://ddyskdswe37c1" path="res://assets/Models/Dungeon/gltf/banner_patternC_yellow.gltf.glb" id="111_4mneq"]
+[ext_resource type="PackedScene" uid="uid://xlmgvdtiq5uo" path="res://assets/Models/Dungeon/gltf/banner_patternC_white.gltf.glb" id="112_gy1ph"]
+[ext_resource type="PackedScene" uid="uid://748xvyrinh5n" path="res://assets/Models/Dungeon/gltf/banner_patternC_red.gltf.glb" id="113_ov18g"]
+[ext_resource type="PackedScene" uid="uid://gnyy61330kua" path="res://assets/Models/Dungeon/gltf/banner_patternC_green.gltf.glb" id="114_fx1ga"]
+[ext_resource type="PackedScene" uid="uid://cbouqolgfflhv" path="res://assets/Models/Dungeon/gltf/banner_patternC_brown.gltf.glb" id="115_4gmui"]
+[ext_resource type="PackedScene" uid="uid://bb8w4cpxnuhsb" path="res://assets/Models/Dungeon/gltf/banner_patternC_blue.gltf.glb" id="116_ghcdp"]
+[ext_resource type="PackedScene" uid="uid://m2xjp57s43qm" path="res://assets/Models/Dungeon/gltf/banner_patternB_yellow.gltf.glb" id="117_ov8fi"]
+[ext_resource type="PackedScene" uid="uid://b3xge0hb87c3k" path="res://assets/Models/Dungeon/gltf/banner_patternB_white.gltf.glb" id="118_vr8ki"]
+[ext_resource type="PackedScene" uid="uid://d3ubmlrjonwes" path="res://assets/Models/Dungeon/gltf/banner_patternB_red.gltf.glb" id="119_okqn2"]
+[ext_resource type="PackedScene" uid="uid://duo2oef4nl2w3" path="res://assets/Models/Dungeon/gltf/banner_patternB_green.gltf.glb" id="120_dyxqh"]
+[ext_resource type="PackedScene" uid="uid://rqv7sk6fmleu" path="res://assets/Models/Dungeon/gltf/banner_patternB_brown.gltf.glb" id="121_lbbd6"]
+[ext_resource type="PackedScene" uid="uid://dwyhc4grynvqf" path="res://assets/Models/Dungeon/gltf/banner_patternB_blue.gltf.glb" id="122_7dh7x"]
+[ext_resource type="PackedScene" uid="uid://ek05q7ob2rs1" path="res://assets/Models/Dungeon/gltf/banner_patternA_yellow.gltf.glb" id="123_a4gv5"]
+[ext_resource type="PackedScene" uid="uid://gpfpb4pfkgse" path="res://assets/Models/Dungeon/gltf/banner_patternA_white.gltf.glb" id="124_283t4"]
+[ext_resource type="PackedScene" uid="uid://keyyqq3lncjr" path="res://assets/Models/Dungeon/gltf/banner_patternA_red.gltf.glb" id="125_6t23y"]
+[ext_resource type="PackedScene" uid="uid://d35hlb1v6llul" path="res://assets/Models/Dungeon/gltf/banner_patternA_green.gltf.glb" id="126_ubdib"]
+[ext_resource type="PackedScene" uid="uid://cb25moq0eogk2" path="res://assets/Models/Dungeon/gltf/banner_patternA_brown.gltf.glb" id="127_4ds5t"]
+[ext_resource type="PackedScene" uid="uid://cshaaph4bdkpu" path="res://assets/Models/Dungeon/gltf/banner_patternA_blue.gltf.glb" id="128_8yx7a"]
+[ext_resource type="PackedScene" uid="uid://b0nlexnwf32pb" path="res://assets/Models/Dungeon/gltf/banner_green.gltf.glb" id="129_q3r0m"]
+[ext_resource type="PackedScene" uid="uid://lkcmpcl2447g" path="res://assets/Models/Dungeon/gltf/banner_brown.gltf.glb" id="130_5mn88"]
+[ext_resource type="PackedScene" uid="uid://cu5xyy3ycv7ni" path="res://assets/Models/Dungeon/gltf/banner_blue.gltf.glb" id="131_5i2b5"]
 
 [node name="Node3D" type="Node3D"]
 
-[node name="trunk_large_A_gltf" parent="." instance=ExtResource("1_340ku")]
+[node name="trunk_large_A_gltf" parent="." instance=ExtResource("1_6fxjn")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0376352, 0, -0.149939)
 
-[node name="trunk_medium_A_gltf" parent="." instance=ExtResource("2_bgo4m")]
+[node name="trunk_medium_A_gltf" parent="." instance=ExtResource("2_itpv8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0869797, 0, 1.08287)
 
-[node name="trunk_small_A_gltf" parent="." instance=ExtResource("3_0wwiy")]
+[node name="trunk_small_A_gltf" parent="." instance=ExtResource("3_tf5b6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.028515, 0, 1.96041)
 
-[node name="trunk_large_B_gltf" parent="." instance=ExtResource("4_7p7l0")]
+[node name="trunk_large_B_gltf" parent="." instance=ExtResource("4_51rr6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.72132, 0, -0.0700486)
 
-[node name="trunk_medium_B_gltf" parent="." instance=ExtResource("5_a7xoy")]
+[node name="trunk_medium_B_gltf" parent="." instance=ExtResource("5_3euxe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.63369, 0, 1.03611)
 
-[node name="trunk_small_B_gltf" parent="." instance=ExtResource("6_ivmk5")]
+[node name="trunk_small_B_gltf" parent="." instance=ExtResource("6_86sx1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.58675, 1.19209e-07, 1.79527)
 
-[node name="trunk_large_C_gltf" parent="." instance=ExtResource("7_7fv1a")]
+[node name="trunk_large_C_gltf" parent="." instance=ExtResource("7_jxjfg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.53263, 0, -0.0206716)
 
-[node name="trunk_medium_C_gltf" parent="." instance=ExtResource("8_uqjjt")]
+[node name="trunk_medium_C_gltf" parent="." instance=ExtResource("8_dryaj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.44714, 0, 1.11277)
 
-[node name="trunk_small_C_gltf" parent="." instance=ExtResource("9_w6872")]
+[node name="trunk_small_C_gltf" parent="." instance=ExtResource("9_yam4n")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.41092, 0, 1.76667)
 
-[node name="torch_mounted_gltf" parent="." instance=ExtResource("10_dtd4v")]
+[node name="torch_mounted_gltf" parent="." instance=ExtResource("10_wkm5a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.27292, 0, -0.716601)
 
-[node name="torch_lit_gltf" parent="." instance=ExtResource("11_vp51q")]
+[node name="torch_lit_gltf" parent="." instance=ExtResource("11_6nxby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0007, 0, -0.453144)
 
-[node name="torch_gltf" parent="." instance=ExtResource("12_later")]
+[node name="torch_gltf" parent="." instance=ExtResource("12_hk6wa")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.76269, 0, -0.472436)
 
-[node name="table_long_gltf" parent="." instance=ExtResource("13_vwv21")]
+[node name="table_long_gltf" parent="." instance=ExtResource("13_p3y87")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.09723, 0, 1.28821)
 
-[node name="table_long_broken_gltf" parent="." instance=ExtResource("14_7rh02")]
+[node name="table_long_broken_gltf" parent="." instance=ExtResource("14_g6rma")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.16636, 0, -4.21611)
 
-[node name="table_long_decorated_A_gltf" parent="." instance=ExtResource("15_a8ajy")]
+[node name="table_long_decorated_A_gltf" parent="." instance=ExtResource("15_nbjh7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.09406, 0, 6.57235)
 
-[node name="table_long_decorated_C_gltf" parent="." instance=ExtResource("16_5ylh0")]
+[node name="table_long_decorated_C_gltf" parent="." instance=ExtResource("16_s0sgx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.17034, 0, 11.8241)
 
-[node name="table_long_tablecloth_gltf" parent="." instance=ExtResource("17_wcfua")]
+[node name="table_long_tablecloth_gltf" parent="." instance=ExtResource("17_4ifix")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.15312, 0, 16.6367)
 
-[node name="table_long_tablecloth_decorated_A_gltf" parent="." instance=ExtResource("18_jn2h1")]
+[node name="table_long_tablecloth_decorated_A_gltf" parent="." instance=ExtResource("18_2gl7e")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.111, 0, 21.5488)
 
-[node name="table_medium_gltf" parent="." instance=ExtResource("19_3376a")]
+[node name="table_medium_gltf" parent="." instance=ExtResource("19_8abaq")]
 transform = Transform3D(1, 0, 0, 0, 0.962251, 0.272163, 0, -0.272163, 0.962251, 11.5639, 0.18132, 1.46078)
 
-[node name="table_medium_broken_gltf" parent="." instance=ExtResource("20_7sl8v")]
+[node name="table_medium_broken_gltf" parent="." instance=ExtResource("20_vvto6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.6761, 0, -4.74344)
 
-[node name="table_medium_decorated_A_gltf" parent="." instance=ExtResource("21_2kq0v")]
+[node name="table_medium_decorated_A_gltf" parent="." instance=ExtResource("21_ehen8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5235, 0, 7.1736)
 
-[node name="table_medium_tablecloth_gltf" parent="." instance=ExtResource("22_wq66r")]
+[node name="table_medium_tablecloth_gltf" parent="." instance=ExtResource("22_sj3h8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5515, 0, 12.7303)
 
-[node name="table_medium_tablecloth_decorated_B_gltf" parent="." instance=ExtResource("23_1635p")]
+[node name="table_medium_tablecloth_decorated_B_gltf" parent="." instance=ExtResource("23_celm7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9561, 0, 16.4055)
 
-[node name="table_small_gltf" parent="." instance=ExtResource("24_j8jb8")]
+[node name="table_small_gltf" parent="." instance=ExtResource("24_2kg1d")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1437, 0, -3.9535)
 
-[node name="table_small_decorated_A_gltf" parent="." instance=ExtResource("25_nvyhp")]
+[node name="table_small_decorated_A_gltf" parent="." instance=ExtResource("25_065ov")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.7075, -0.0602589, -0.15702)
 
-[node name="table_small_decorated_B_gltf" parent="." instance=ExtResource("26_7u5kd")]
+[node name="table_small_decorated_B_gltf" parent="." instance=ExtResource("26_vxrpw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.3834, 0, 2.39379)
 
-[node name="sword_shield_gold_gltf" parent="." instance=ExtResource("27_kdo2m")]
+[node name="sword_shield_gold_gltf" parent="." instance=ExtResource("27_m4lap")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.4286, 0, -12.1678)
 
-[node name="sword_shield_broken_gltf" parent="." instance=ExtResource("28_mnlud")]
+[node name="sword_shield_broken_gltf" parent="." instance=ExtResource("28_sewxp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.92978, 4.76837e-07, -12.5357)
 
-[node name="sword_shield_gltf" parent="." instance=ExtResource("29_nn20f")]
+[node name="sword_shield_gltf" parent="." instance=ExtResource("29_r6o3p")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5724, 0, -12.7933)
 
-[node name="stool_gltf" parent="." instance=ExtResource("30_3ky5q")]
+[node name="stool_gltf" parent="." instance=ExtResource("30_8j4ef")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.0908, 0, -12.4988)
 
-[node name="stairs_wood_decorated_gltf" parent="." instance=ExtResource("31_bxo5k")]
+[node name="stairs_wood_decorated_gltf" parent="." instance=ExtResource("31_bipgf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1277, 0, -15.0145)
 
-[node name="stairs_wood_gltf" parent="." instance=ExtResource("32_5he03")]
+[node name="stairs_wood_gltf" parent="." instance=ExtResource("32_62pe6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.43395, 0, -15.1007)
 
-[node name="shelves_gltf" parent="." instance=ExtResource("33_4kh5i")]
+[node name="shelves_gltf" parent="." instance=ExtResource("33_bdwmt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.98068, 0, 5.02166)
 
-[node name="shelf_small_candles_gltf" parent="." instance=ExtResource("34_iowmq")]
+[node name="shelf_small_candles_gltf" parent="." instance=ExtResource("34_jykao")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.861111, 0, 5.25564)
 
-[node name="shelf_small_gltf" parent="." instance=ExtResource("35_spl2p")]
+[node name="shelf_small_gltf" parent="." instance=ExtResource("35_01s7p")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.87391, -9.53674e-07, 8.40011)
 
-[node name="shelf_large_gltf" parent="." instance=ExtResource("36_7mqgk")]
+[node name="shelf_large_gltf" parent="." instance=ExtResource("36_yvlwt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.359951, -9.53674e-07, 8.01249)
 
-[node name="rubble_large_gltf" parent="." instance=ExtResource("37_rpkbn")]
+[node name="rubble_large_gltf" parent="." instance=ExtResource("37_2rj0n")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.693624, 9.53674e-07, 14.792)
 
-[node name="rubble_half_gltf" parent="." instance=ExtResource("38_o08sa")]
+[node name="rubble_half_gltf" parent="." instance=ExtResource("38_g48at")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.31456, 0, 18.7013)
 
-[node name="plate_stack_gltf" parent="." instance=ExtResource("39_qhwwx")]
+[node name="plate_stack_gltf" parent="." instance=ExtResource("39_ta12m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56668, 9.53674e-07, -5.07734)
 
-[node name="plate_small_gltf" parent="." instance=ExtResource("40_uyecg")]
+[node name="plate_small_gltf" parent="." instance=ExtResource("40_yye6k")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.82891, -9.53674e-07, -3.45251)
 
-[node name="plate_food_B_gltf" parent="." instance=ExtResource("41_y0u7f")]
+[node name="plate_food_B_gltf" parent="." instance=ExtResource("41_oreyb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.962187, 9.53674e-07, -5.67005)
 
-[node name="plate_food_A_gltf" parent="." instance=ExtResource("42_iowlp")]
+[node name="plate_food_A_gltf" parent="." instance=ExtResource("42_mo8rg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.96039, 0, -3.51452)
 
-[node name="plate_gltf" parent="." instance=ExtResource("43_gn6fi")]
+[node name="plate_gltf" parent="." instance=ExtResource("43_ktx7t")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.92748, -9.53674e-07, -5.34247)
 
-[node name="pillar_decorated_gltf" parent="." instance=ExtResource("44_bc3wd")]
+[node name="pillar_decorated_gltf" parent="." instance=ExtResource("44_2ioh2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.15843, 0, 7.7107)
 
-[node name="pillar_gltf" parent="." instance=ExtResource("45_qp64m")]
+[node name="pillar_gltf" parent="." instance=ExtResource("45_f3els")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.47855, 0, 5.02803)
 
-[node name="keyring_hanging_gltf" parent="." instance=ExtResource("46_ts1at")]
+[node name="keyring_hanging_gltf" parent="." instance=ExtResource("46_7nbfg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.80496, 0, 3.25234)
 
-[node name="keyring_gltf" parent="." instance=ExtResource("47_vohvm")]
+[node name="keyring_gltf" parent="." instance=ExtResource("47_uk48u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.58858, 0, 0.816311)
 
-[node name="key_gltf" parent="." instance=ExtResource("48_42uub")]
+[node name="key_gltf" parent="." instance=ExtResource("48_i4fah")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.97504, 0, -1.49764)
 
-[node name="keg_decorated_gltf" parent="." instance=ExtResource("49_uqtsi")]
+[node name="keg_decorated_gltf" parent="." instance=ExtResource("49_xpy6e")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.72428, 0, 2.27314)
 
-[node name="keg_gltf" parent="." instance=ExtResource("50_fy1yn")]
+[node name="keg_gltf" parent="." instance=ExtResource("50_40sem")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.00277, -9.53674e-07, -0.819586)
 
-[node name="crates_stacked_gltf" parent="." instance=ExtResource("51_57oif")]
+[node name="crates_stacked_gltf" parent="." instance=ExtResource("51_wcncf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.68432, 0, -11.3915)
 
-[node name="column_gltf" parent="." instance=ExtResource("52_5270d")]
+[node name="column_gltf" parent="." instance=ExtResource("52_u84dt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.24448, -9.53674e-07, -6.5209)
 
-[node name="coin_stack_small_gltf" parent="." instance=ExtResource("53_8kx5q")]
+[node name="coin_stack_small_gltf" parent="." instance=ExtResource("53_wml2f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8525, 0, -8.95668)
 
-[node name="coin_stack_medium_gltf" parent="." instance=ExtResource("54_aohky")]
+[node name="coin_stack_medium_gltf" parent="." instance=ExtResource("54_nfq5r")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.9972, 0, -7.58839)
 
-[node name="coin_stack_large_gltf" parent="." instance=ExtResource("55_lokw5")]
+[node name="coin_stack_large_gltf" parent="." instance=ExtResource("55_3e2e4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.9615, 0, -5.91176)
 
-[node name="coin_gltf" parent="." instance=ExtResource("56_4u0dx")]
+[node name="coin_gltf" parent="." instance=ExtResource("56_80i45")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.9637, 0, -10.6708)
 
-[node name="chest_gold2" parent="." instance=ExtResource("57_a8p3s")]
+[node name="chest_gold2" parent="." instance=ExtResource("57_juvl8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.54696, 0, -2.56223)
 
-[node name="chest2" parent="." instance=ExtResource("58_ku25k")]
+[node name="chest2" parent="." instance=ExtResource("58_wv771")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.0038, 0, -2.66247)
 
-[node name="chair_gltf" parent="." instance=ExtResource("59_uf3uu")]
+[node name="chair_gltf" parent="." instance=ExtResource("59_3l0w5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.9106, 9.53674e-07, -5.58923)
 
-[node name="candle_triple_gltf" parent="." instance=ExtResource("60_2j0lk")]
+[node name="candle_triple_gltf" parent="." instance=ExtResource("60_o2ymb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.7776, 0, -3.96285)
 
-[node name="candle_thin_lit_gltf" parent="." instance=ExtResource("61_6l0tk")]
+[node name="candle_thin_lit_gltf" parent="." instance=ExtResource("61_4gpqg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.906, 0, -3.1264)
 
-[node name="candle_thin_gltf" parent="." instance=ExtResource("62_6mch5")]
+[node name="candle_thin_gltf" parent="." instance=ExtResource("62_q5sdt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.9737, 9.53674e-07, -2.23683)
 
-[node name="candle_melted_gltf" parent="." instance=ExtResource("63_2km31")]
+[node name="candle_melted_gltf" parent="." instance=ExtResource("63_2amso")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4214, 0, -1.1942)
 
-[node name="candle_lit_gltf" parent="." instance=ExtResource("64_3u1ll")]
+[node name="candle_lit_gltf" parent="." instance=ExtResource("64_fpqvo")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.7194, 0, 0.0474787)
 
-[node name="candle_gltf" parent="." instance=ExtResource("65_e8ui8")]
+[node name="candle_gltf" parent="." instance=ExtResource("65_qhawe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4185, 0, 1.03549)
 
-[node name="box_stacked_gltf" parent="." instance=ExtResource("66_bfkde")]
+[node name="box_stacked_gltf" parent="." instance=ExtResource("66_6lf5l")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.92389, 0, -16.2039)
 
-[node name="box_small_decorated_gltf" parent="." instance=ExtResource("67_02tk3")]
+[node name="box_small_decorated_gltf" parent="." instance=ExtResource("67_qrngr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.2413, 0, -13.6871)
 
-[node name="box_small_gltf" parent="." instance=ExtResource("68_8e4xo")]
+[node name="box_small_gltf" parent="." instance=ExtResource("68_vk0ey")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.0643, 0, -16.3005)
 
-[node name="box_large_gltf" parent="." instance=ExtResource("69_mfrqw")]
+[node name="box_large_gltf" parent="." instance=ExtResource("69_5frdp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.2262, 0, -18.3358)
 
-[node name="bottle_C_green_gltf" parent="." instance=ExtResource("70_2wdkc")]
+[node name="bottle_C_green_gltf" parent="." instance=ExtResource("70_n0upq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.9586, 0, -14.7242)
 
-[node name="bottle_C_brown_gltf" parent="." instance=ExtResource("71_bhx68")]
+[node name="bottle_C_brown_gltf" parent="." instance=ExtResource("71_jriy0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.0807, 0, -13.5466)
 
-[node name="bottle_B_green_gltf" parent="." instance=ExtResource("72_o15hq")]
+[node name="bottle_B_green_gltf" parent="." instance=ExtResource("72_ye2tp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.0581, 0, -12.5611)
 
-[node name="bottle_B_brown_gltf" parent="." instance=ExtResource("73_0fnjs")]
+[node name="bottle_B_brown_gltf" parent="." instance=ExtResource("73_mj21t")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.6885, 0, -15.4145)
 
-[node name="bottle_A_labeled_green_gltf" parent="." instance=ExtResource("74_5luyu")]
+[node name="bottle_A_labeled_green_gltf" parent="." instance=ExtResource("74_lclpb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.0993, 0, -14.3059)
 
-[node name="bottle_A_labeled_brown_gltf" parent="." instance=ExtResource("75_towq5")]
+[node name="bottle_A_labeled_brown_gltf" parent="." instance=ExtResource("75_o3g2y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.1725, 9.53674e-07, -12.9606)
 
-[node name="bottle_A_green_gltf" parent="." instance=ExtResource("76_1p8mg")]
+[node name="bottle_A_green_gltf" parent="." instance=ExtResource("76_rht5o")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.1217, 0, -13.6281)
 
-[node name="bottle_A_brown_gltf" parent="." instance=ExtResource("77_6ijtt")]
+[node name="bottle_A_brown_gltf" parent="." instance=ExtResource("77_sf5de")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.0679, 0, -12.0056)
 
-[node name="bed_frame_gltf" parent="." instance=ExtResource("78_pplpv")]
+[node name="bed_frame_gltf" parent="." instance=ExtResource("78_nx2mb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.883, 0, -16.5265)
 
-[node name="bed_floor_gltf" parent="." instance=ExtResource("79_dfqom")]
+[node name="bed_floor_gltf" parent="." instance=ExtResource("79_rwjls")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.7312, 0, -13.0742)
 
-[node name="bed_decorated_gltf" parent="." instance=ExtResource("80_1240f")]
+[node name="bed_decorated_gltf" parent="." instance=ExtResource("80_njcbi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.307, -9.53674e-07, -8.74303)
 
-[node name="barrier_half_gltf" parent="." instance=ExtResource("81_rxmti")]
+[node name="barrier_half_gltf" parent="." instance=ExtResource("81_cbqs3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.1452, 0, -5.75078)
 
-[node name="barrier_corner_gltf" parent="." instance=ExtResource("82_twtp2")]
+[node name="barrier_corner_gltf" parent="." instance=ExtResource("82_glipv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.3977, 9.53674e-07, -4.34182)
 
-[node name="barrier_colum_half_gltf" parent="." instance=ExtResource("83_x22wm")]
+[node name="barrier_colum_half_gltf" parent="." instance=ExtResource("83_1juwh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.3324, 0, -1.18486)
 
-[node name="barrier_column_gltf" parent="." instance=ExtResource("84_bvy02")]
+[node name="barrier_column_gltf" parent="." instance=ExtResource("84_gasdv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4785, 9.53674e-07, 1.07971)
 
-[node name="barrier_gltf" parent="." instance=ExtResource("85_egql1")]
+[node name="barrier_gltf" parent="." instance=ExtResource("85_15i26")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.3149, 9.53674e-07, 2.71822)
 
-[node name="barrel_small_stack_gltf" parent="." instance=ExtResource("86_h0uq0")]
+[node name="barrel_small_stack_gltf" parent="." instance=ExtResource("86_wujqm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.7982, 9.53674e-07, 4.60772)
 
-[node name="barrel_small_gltf" parent="." instance=ExtResource("87_q580r")]
+[node name="barrel_small_gltf" parent="." instance=ExtResource("87_mwfnp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.5352, 0, 6.88353)
 
-[node name="barrel_large_decorated_gltf" parent="." instance=ExtResource("88_gyw7o")]
+[node name="barrel_large_decorated_gltf" parent="." instance=ExtResource("88_ltrtb")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1612, 9.53674e-07, 4.67397)
 
-[node name="barrel_large_gltf" parent="." instance=ExtResource("89_xltsu")]
+[node name="barrel_large_gltf" parent="." instance=ExtResource("89_dyrto")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1984, 0, 7.09289)
 
-[node name="banner_yellow_gltf" parent="." instance=ExtResource("90_hylpm")]
+[node name="banner_yellow_gltf" parent="." instance=ExtResource("90_0xydt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.97271, 9.53674e-07, 4.91154)
 
-[node name="banner_white_gltf" parent="." instance=ExtResource("91_j11lm")]
+[node name="banner_white_gltf" parent="." instance=ExtResource("91_ub3dc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.78053, 0.0507584, 6.74242)
 
-[node name="banner_triple_yellow_gltf" parent="." instance=ExtResource("92_u8jlc")]
+[node name="banner_triple_yellow_gltf" parent="." instance=ExtResource("92_wf3w8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1084, 0, 9.0969)
 
-[node name="banner_triple_white_gltf" parent="." instance=ExtResource("93_bsmk2")]
+[node name="banner_triple_white_gltf" parent="." instance=ExtResource("93_hngvq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.69499, 0, 10.7582)
 
-[node name="banner_triple_red_gltf" parent="." instance=ExtResource("94_emeyy")]
+[node name="banner_triple_red_gltf" parent="." instance=ExtResource("94_b332c")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.75382, 0, 12.4058)
 
-[node name="banner_triple_green_gltf" parent="." instance=ExtResource("95_uvyl6")]
+[node name="banner_triple_green_gltf" parent="." instance=ExtResource("95_30ugt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.53471, 0, 14.0228)
 
-[node name="banner_triple_brown_gltf" parent="." instance=ExtResource("96_ynvf3")]
+[node name="banner_triple_brown_gltf" parent="." instance=ExtResource("96_kpqm6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.32028, 0, 15.2959)
 
-[node name="banner_triple_blue_gltf" parent="." instance=ExtResource("97_tkvjl")]
+[node name="banner_triple_blue_gltf" parent="." instance=ExtResource("97_ti8ik")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.15119, 0, 16.2833)
 
-[node name="banner_thin_yellow_gltf" parent="." instance=ExtResource("98_kv82b")]
+[node name="banner_thin_yellow_gltf" parent="." instance=ExtResource("98_16s6v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4944, 1.90735e-06, 9.69537)
 
-[node name="banner_thin_white_gltf" parent="." instance=ExtResource("99_5310j")]
+[node name="banner_thin_white_gltf" parent="." instance=ExtResource("99_cqx51")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.4632, 0, 11.321)
 
-[node name="banner_thin_red_gltf" parent="." instance=ExtResource("100_yle1i")]
+[node name="banner_thin_red_gltf" parent="." instance=ExtResource("100_hr5yc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.3112, 0, 12.8758)
 
-[node name="banner_thin_green_gltf" parent="." instance=ExtResource("101_cf15n")]
+[node name="banner_thin_green_gltf" parent="." instance=ExtResource("101_xs5ag")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1593, 1.90735e-06, 14.2265)
 
-[node name="banner_thin_brown_gltf" parent="." instance=ExtResource("102_0ckkx")]
+[node name="banner_thin_brown_gltf" parent="." instance=ExtResource("102_5nn2p")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1169, 0, 15.3137)
 
-[node name="banner_thin_blue_gltf" parent="." instance=ExtResource("103_u3tcu")]
+[node name="banner_thin_blue_gltf" parent="." instance=ExtResource("103_ysi5m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.9628, 0, 16.6965)
 
-[node name="banner_shield_yellow_gltf" parent="." instance=ExtResource("104_quu3v")]
+[node name="banner_shield_yellow_gltf" parent="." instance=ExtResource("104_fsavf")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.8607, 0, 8.9816)
 
-[node name="banner_shield_white_gltf" parent="." instance=ExtResource("105_hq5br")]
+[node name="banner_shield_white_gltf" parent="." instance=ExtResource("105_wdel5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6637, 0, 10.6293)
 
-[node name="banner_shield_red_gltf" parent="." instance=ExtResource("106_8kkat")]
+[node name="banner_shield_red_gltf" parent="." instance=ExtResource("106_xho5w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5213, 0, 12.1446)
 
-[node name="banner_shield_green_gltf" parent="." instance=ExtResource("107_uehj0")]
+[node name="banner_shield_green_gltf" parent="." instance=ExtResource("107_2e4wd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.2735, 0, 13.6961)
 
-[node name="banner_shield_brown_gltf" parent="." instance=ExtResource("108_r485u")]
+[node name="banner_shield_brown_gltf" parent="." instance=ExtResource("108_mfgbx")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.0434, 1.90735e-06, 15.1374)
 
-[node name="banner_shield_blue_gltf" parent="." instance=ExtResource("109_1nysv")]
+[node name="banner_shield_blue_gltf" parent="." instance=ExtResource("109_gkmsu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.7545, 0, 16.4658)
 
-[node name="banner_red_gltf" parent="." instance=ExtResource("110_kqm58")]
+[node name="banner_red_gltf" parent="." instance=ExtResource("110_qhrs6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.1084, 0, 9.39045)
 
-[node name="banner_patternC_yellow_gltf" parent="." instance=ExtResource("111_gmndv")]
+[node name="banner_patternC_yellow_gltf" parent="." instance=ExtResource("111_4mneq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6476, -1.90735e-06, 10.917)
 
-[node name="banner_patternC_white_gltf" parent="." instance=ExtResource("112_w2seg")]
+[node name="banner_patternC_white_gltf" parent="." instance=ExtResource("112_gy1ph")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.4213, 0, 12.1213)
 
-[node name="banner_patternC_red_gltf" parent="." instance=ExtResource("113_4rdtp")]
+[node name="banner_patternC_red_gltf" parent="." instance=ExtResource("113_ov18g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.0021, 1.90735e-06, 13.6151)
 
-[node name="banner_patternC_green_gltf" parent="." instance=ExtResource("114_igjak")]
+[node name="banner_patternC_green_gltf" parent="." instance=ExtResource("114_fx1ga")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.5629, 1.90735e-06, 15.3256)
 
-[node name="banner_patternC_brown_gltf" parent="." instance=ExtResource("115_l4wni")]
+[node name="banner_patternC_brown_gltf" parent="." instance=ExtResource("115_4gmui")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.0936, 0, 16.7281)
 
-[node name="banner_patternC_blue_gltf" parent="." instance=ExtResource("116_sye8o")]
+[node name="banner_patternC_blue_gltf" parent="." instance=ExtResource("116_ghcdp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.6896, 0, 18.0245)
 
-[node name="banner_patternB_yellow_gltf" parent="." instance=ExtResource("117_o3in5")]
+[node name="banner_patternB_yellow_gltf" parent="." instance=ExtResource("117_ov8fi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.691, 1.90735e-06, 10.0846)
 
-[node name="banner_patternB_white_gltf" parent="." instance=ExtResource("118_faecr")]
+[node name="banner_patternB_white_gltf" parent="." instance=ExtResource("118_vr8ki")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.5888, 0, 11.4186)
 
-[node name="banner_patternB_red_gltf" parent="." instance=ExtResource("119_n1eys")]
+[node name="banner_patternB_red_gltf" parent="." instance=ExtResource("119_okqn2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.336, 1.90735e-06, 12.7719)
 
-[node name="banner_patternB_green_gltf" parent="." instance=ExtResource("120_dd43d")]
+[node name="banner_patternB_green_gltf" parent="." instance=ExtResource("120_dyxqh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.7088, -1.90735e-06, 14.1007)
 
-[node name="banner_patternB_brown_gltf" parent="." instance=ExtResource("121_2hmde")]
+[node name="banner_patternB_brown_gltf" parent="." instance=ExtResource("121_lbbd6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.6097, 0, 14.9262)
 
-[node name="banner_patternB_blue_gltf" parent="." instance=ExtResource("122_j4j6j")]
+[node name="banner_patternB_blue_gltf" parent="." instance=ExtResource("122_7dh7x")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.724, 0, 15.9071)
 
-[node name="banner_patternA_yellow_gltf" parent="." instance=ExtResource("123_ym7ok")]
+[node name="banner_patternA_yellow_gltf" parent="." instance=ExtResource("123_a4gv5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.6944, -1.90735e-06, 11.5684)
 
-[node name="banner_patternA_white_gltf" parent="." instance=ExtResource("124_lx1io")]
+[node name="banner_patternA_white_gltf" parent="." instance=ExtResource("124_283t4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.8106, 0, 10.5403)
 
-[node name="banner_patternA_red_gltf" parent="." instance=ExtResource("125_sbm3v")]
+[node name="banner_patternA_red_gltf" parent="." instance=ExtResource("125_6t23y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.5765, 1.90735e-06, 13.1453)
 
-[node name="banner_patternA_green_gltf" parent="." instance=ExtResource("126_3fgkh")]
+[node name="banner_patternA_green_gltf" parent="." instance=ExtResource("126_ubdib")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.3443, 0, 14.0883)
 
-[node name="banner_patternA_brown_gltf" parent="." instance=ExtResource("127_8hisr")]
+[node name="banner_patternA_brown_gltf" parent="." instance=ExtResource("127_4ds5t")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.1536, 1.90735e-06, 15.0914)
 
-[node name="banner_patternA_blue_gltf" parent="." instance=ExtResource("128_347t8")]
+[node name="banner_patternA_blue_gltf" parent="." instance=ExtResource("128_8yx7a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.9121, 0, 16.6339)
 
-[node name="banner_green_gltf" parent="." instance=ExtResource("129_yt64j")]
+[node name="banner_green_gltf" parent="." instance=ExtResource("129_q3r0m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.8753, 0, 11.3161)
 
-[node name="banner_brown_gltf" parent="." instance=ExtResource("130_78eqn")]
+[node name="banner_brown_gltf" parent="." instance=ExtResource("130_5mn88")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.7493, 0, 12.9026)
 
-[node name="banner_blue_gltf" parent="." instance=ExtResource("131_m3s1h")]
+[node name="banner_blue_gltf" parent="." instance=ExtResource("131_5i2b5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0314, 0, 14.0632)
